@@ -1,0 +1,139 @@
+Algorithm(x, k)
+y ← x
+while y!=nil do
+ if key[y] = k then return y
+ else if key[y] < k then y ← right[y]
+ else y ← left[y]
+
+ return (“NOT FOUND”)
+ 
+ function(int n)
+{
+    if(n == 1) return;
+
+    for(i = 1 ; i <= n ; i++)
+        for(j = 1 ; j <= n ; j++)
+            printf("*");
+
+    function(n-1);
+}
+
+function foo(n)
+{
+    if(n == 1) return;
+
+    for(let i = 1 ; i <= n ; i++)
+        for(let j = 1 ; j <= n ; j++)
+            console.log('*');
+
+    foo(n-1);
+}
+
+SORT (A)
+{
+ n ← length [A]
+  For i = 1 to n do
+ Insert A[i] into list B[A[i]/b] ..(b<- constant)
+  For i = 0 to n-1 do
+  Sort list B with Insertion sort
+ 
+ Concatenate the lists B[0], B[1], . . B[n-1]..
+}
+
+
+SQL Interview questions 
+1. What is the difference between 'REPLACE' and 'STUFF' functions in SQL Server?
+2. Tell me how to use IDENTITY in SQL Server?
+3. What do you mean by SQL join and how can you use it?
+
+
+3. List out the available modes of inheritance to inherit one class from another?
+4. How can we refer to the global variable if the local and the global variable names are the same?
+5. What is the first string in the argument vector w.r.t command-line arguments?
+7. List the three steps for creating an Object for a class?
+8. Tell the valid operations on pointers?
+9. Is it legal to assign a base class object to a derived class pointer?
+10. List out the available modes of inheritance to inherit one class from another?
+4. Explain async programming and its working.
+5. What does Micro Services architecture do?
+6. What is the major role of DevOps and its elements in the environment?
+7. What are the caching types for Web APIs?
+8. How can you set up a DevOps environment using the Azure instance?
+9. What is the purpose of Dependency Injection?
+10. Give us an example of the palindrome method implementation of a programming language.
+
+A queen in a chessboard can be moved to any number of unoccupied squares in a straight line vertically, horizontally, or diagonally. The queen captures by occupying the square on which the opponent’s piece is located. You are given a chessboard of size   with  queens. Now, you are required to arrange all these  queens in such a way that no queen occupies the other queen. If you are required to solve this problem by using the backtracking technique from the data structures and algorithms, then determine the worst-case time complexity to perform this action in this scenario?
+O(N)
+O(1)
+O(log(N))
+O(N!)
+
+What is the output of the following Python 3 code:
+def Filter1(nums):
+    for num in nums:
+        if num % 2 == 0:
+            yield num
+def Filter2(nums):
+    for num in nums:
+        yield num * 3
+def Filter3(nums):
+    for num in nums:
+        yield num
+nums = [0, -1, -4, -9, -16, -25, -36, -49]
+result = Filter3(Filter2(Filter1(nums)))
+for num in result:
+    print(num, end=' ')
+
+0 -12 -48 -108
+0 -48 -12 -108
+12 -48 0 -108
+TypeError
+
+What is the output of the following Python 3 code:
+def MainProg(f): 
+    m = {} 
+    def InnerProg(num): 
+        if num not in m:          
+            m[num] = f(num) 
+        return m[num]  
+    return InnerProg     
+@MainProg
+def Cal(num): 
+    if num == 0: 
+        return 1
+    else: 
+        return num**2*Cal(num-1) 
+print(Cal(3))
+
+172
+RecursionError
+81
+36
+
+What is the output of the following Python 3 code:
+import contextlib
+@contextlib.contextmanager
+def Program():
+    try:
+        yield from perform()
+    except:
+        raise
+    else:
+        return 0
+def perform():
+    yield 
+def task():
+    for n in range(7):
+        with Program():
+            yield n
+            raise StopIteration
+for n in task():
+    print(n, end=' ')
+
+StopIteration
+1 2 3 4 5 6
+0 1 2 3 4 5 6
+RuntimeError
+
+
+

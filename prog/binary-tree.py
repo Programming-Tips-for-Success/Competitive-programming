@@ -12,7 +12,7 @@ class treeSolution():
     
         if (not temp): 
             return
-    
+        
         self.inorder(temp.left)  
         print(temp.key,end = " ") 
         self.inorder(temp.right)  
@@ -191,32 +191,32 @@ root.right.right = treeNode(8)
 # obj = [{{l:7}{l:11}10:ro{l:15}{9:r}{8:r}}]
 treeObj.insert(root, 12)  
 treeObj.inorder(root)  #check if left child is empty insert it otherwise insert to right
-treeObj.insertData(16, root) #binary search tree insertion
-treeObj.inorder(root)
-treeObj.deletion(root, 11) #For deletion in binary tree find right most node, replace delete node data with right most node, delete rightmost node
-treeObj.inorder(root) # linked list representation
-treeObj.root(10)
-treeObj.set_left(11, 0)
-treeObj.set_left(7, 1)
-treeObj.set_left(15, 1)
-treeObj.set_right(9, 0)
-treeObj.set_right(8, 1)
-treeObj.print_tree()
-treeObj.root('A')
-treeObj.set_right('C', 0)
-treeObj.set_left('D', 1)
-treeObj.set_right('E', 1)
-treeObj.set_right('F', 2)
-treeObj.print_tree()
-print(treeObj.findval(7, root))
-print ("Preorder traversal of binary tree is")
-treeObj.printPreorder(root) 
+# treeObj.insertData(16, root) #binary search tree insertion
+# treeObj.inorder(root)
+# treeObj.deletion(root, 11) #For deletion in binary tree find right most node, replace delete node data with right most node, delete rightmost node
+# treeObj.inorder(root) # linked list representation
+# treeObj.root(10)
+# treeObj.set_left(11, 0)
+# treeObj.set_left(7, 1)
+# treeObj.set_left(15, 1)
+# treeObj.set_right(9, 0)
+# treeObj.set_right(8, 1)
+# treeObj.print_tree()
+# treeObj.root('A')
+# treeObj.set_right('C', 0)
+# treeObj.set_left('D', 1)
+# treeObj.set_right('E', 1)
+# treeObj.set_right('F', 2)
+# treeObj.print_tree()
+# print(treeObj.findval(7, root))
+# print ("Preorder traversal of binary tree is")
+# treeObj.printPreorder(root) 
   
-print ("\nInorder traversal of binary tree is")
-treeObj.printInorder(root) 
+# print ("\nInorder traversal of binary tree is")
+# treeObj.printInorder(root) 
   
-print ("\nPostorder traversal of binary tree is")
-treeObj.printPostorder(root)
+# print ("\nPostorder traversal of binary tree is")
+# treeObj.printPostorder(root)
 
 # Traversing a Tree without Recursion and without a stack (Morris Traversal)
 # Traversing a Binary Tree

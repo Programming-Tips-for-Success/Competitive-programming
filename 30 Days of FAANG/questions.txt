@@ -1,0 +1,16 @@
+Coding questions
+From the given list of integers, write down a program to identify the integers that are palindromes
+Write down a program to identify duplicates in an array of integers.
+From the given list of integers and an integer target, return the indices of two numbers whose total is equivalent to the target
+Write down a program to reverse a string in place
+Identify the smallest and largest numbers amongst the unsorted array of integers
+
+https://www.geeksforgeeks.org/amazon-sde-1-interview-experience-wow-2020/
+https://www.geeksforgeeks.org/minimum-time-to-burn-a-tree-starting-from-a-leaf-node/
+
+https://practice.geeksforgeeks.org/contest/interview-series-google/problems/
+
+https://practice.geeksforgeeks.org/problems/shortest-path-between-cities/1#
+https://practice.geeksforgeeks.org/problems/963b3db8c7ac09d564c9d354c07af13c624ba94d/1
+
+https://practice.geeksforgeeks.org/problems/neemans-shoes/1/#

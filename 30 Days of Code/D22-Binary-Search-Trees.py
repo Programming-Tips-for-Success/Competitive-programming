@@ -105,17 +105,17 @@ class Solution:
         return current.data
 
 
-T=int(input())
+# T=int(input())
 myTree=Solution()
 root=None
-for i in range(T):
-    data=int(input())
-    root=myTree.insert(root,data)
+# for i in range(T):
+#     data=int(input())
+#     root=myTree.insert(root,data)
 
-height=myTree.getHeight(root)
-print('height', height)       
+# height=myTree.getHeight(root)
+# print('height', height)       
 
-myTree.levelOrder(root)
+# myTree.levelOrder(root)
 
 # Sample Input dfs example
 
