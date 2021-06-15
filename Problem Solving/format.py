@@ -46,10 +46,13 @@ a=5
 print ("The value of a is: " + str(a))  
 b=6
 print ("The value of a is: " + b)  # show error
+
+# to fetch object key values use items
 table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678} 
 for name, phone in table.items(): 
     print(f'{name:10} ==> {phone:10d}')
     print(name, phone)
+    
 # ‘**’ notation.  
 table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678} 
 print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'.format(**table)) 
@@ -62,14 +65,7 @@ d = 'cherry'
 if d in fruits:
     print(fruits.index(d))
 abc = ['x', 'y', 'z']
-# To print array in reverse order-
-print(abc[::-1]) 
-# We can also use this to reverse a string-
-a = "!dlrow olleH" 
-backward = a[::-1] 
-print(backward)
-# output- 
-# Hello world!
+
 # To print the whole array-
 print(abc[:]) 
 # To print substring-

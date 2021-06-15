@@ -1,7 +1,4 @@
-﻿
-
-
-Day1: (Arrays)
+﻿Day1: (Arrays)
 -1. Find the duplicate in an array of N integers. 
 -2. Sort an array of 0’s 1’s 2’s without using extra space or sorting algo 
 -3. Repeat and Missing Number 
@@ -289,9 +286,7 @@ You won’t be asked these directly. Each problem will be disguised as a situati
 
 In data structures, a stack initially holds only one element: {2}. What will be the size of the stack after performing the following operations for ten times:
 
-
-
- write the function that converts string into integers.
+write the function that converts string into integers.
 
  Write a JSON parser. Just write a json parser that parses json formatted string into complex dictionaries or list or whatever.
 
@@ -388,25 +383,15 @@ You are given a string of 0’s and 1’s you have to find the number of substri
 eg : input : 0010110010 
 output : 6 
 
-You are given a mapping like a -> 1, b-> 2… z-> 26. You have to print all possible combinations of a given number using the above information.
-eg : input : 121 
-output : aba,la,au 
-
-Given a dictionary of 50,000 words. Given a phrase without spaces, add spaces to make it a proper sentence.
-e.g:input:  thequickbrownfoxjumpoverlazydog	 
-output: the quick brown fox jump over lazy dog 
-Get the next bigger number using the same digits of a number.
-Eg, For 123456, next number would be 123465
-
-
-# Good example of recursion-
-# The binary tree search
-# Check for a palyndrome
-# Finding factorial
-# Traversing the folder hierarchy of a directory tree as part of a file system
-# Towers of Hanoi
-# Merge sort
-
 # Catalan numbers
 
-# find a largest connected component in a matrix of 0’s and 1’s
+
+https://www.geeksforgeeks.org/amazon-sde-1-interview-experience-wow-2020/
+https://www.geeksforgeeks.org/minimum-time-to-burn-a-tree-starting-from-a-leaf-node/
+
+https://practice.geeksforgeeks.org/contest/interview-series-google/problems/
+
+https://practice.geeksforgeeks.org/problems/shortest-path-between-cities/1#
+https://practice.geeksforgeeks.org/problems/963b3db8c7ac09d564c9d354c07af13c624ba94d/1
+
+https://practice.geeksforgeeks.org/problems/neemans-shoes/1/#

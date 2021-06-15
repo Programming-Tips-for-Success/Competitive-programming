@@ -1,3 +1,11 @@
+# best example of recursion-
+# The binary tree search
+# Check for a palindrome
+# Finding factorial
+# Traversing the folder hierarchy of a directory tree as part of a file system
+# Towers of Hanoi
+# Merge sort
+
 '''
 Objective
 Today, we're learning and practicing an algorithmic concept called Recursion. Check out the Tutorial tab for learning materials and an instructional video!
@@ -67,33 +75,3 @@ def F(n):
     elif n == 1: return 1
 
     else: return F(n-1)+F(n-2)
-
-# GCD (Greatest Common Divisor) or HCF (Highest Common Factor) of two numbers is the largest number
-# that divides both of them. 
-# For example GCD of 20 and 28 is 4
-# 20 = 2 *2 * 5
-# 28 = 2 * 2*7 
-
-
-def gcd(a,b):
-     
-    # Everything divides 0 
-    if (a == 0):
-        return b
-    if (b == 0):
-        return a
- 
-    # base case
-    if (a == b):
-        return a
- 
-    if (a > b):
-        return gcd(a-b, b)
-    return gcd(a, b-a)
-a = 20
-b = 28
-if(gcd(a, b)):
-    print('GCD of', a, 'and', b, 'is', gcd(a, b))
-else:
-
-    print('not found')

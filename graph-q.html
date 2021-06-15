@@ -1,0 +1,24 @@
+<div class="brinza-task-description">
+<p>You are given an undirected graph consisting of N vertices, numbered from 1 to N, and M edges.</p>
+<p>The graph is described by two arrays, A and B, both of length M. A pair (A[K], B[K]), for K from 0 to M-1, describes an edge between vertex A[K] and vertex B[K].</p>
+<p>Your task is to check whether the given graph contains a path from vertex 1 to vertex N going through all of the vertices, one by one, in increasing order of their numbers. All connections on the path should be direct.</p>
+<p>Write a function:</p>
+<blockquote><p style="font-family: monospace; font-size: 9pt; display: block; white-space: pre-wrap"><tt>class Solution { public boolean solution(int N, int[] A, int[] B); }</tt></p></blockquote>
+<p>that, given an integer N and two arrays A and B of M integers each, returns <tt style="white-space:pre-wrap">true</tt> if there exists a path from vertex 1 to N going through all vertices, one by one, in increasing order, or <tt style="white-space:pre-wrap">false</tt> otherwise.</p>
+<p><b>Examples:</b></p>
+<p>1. Given N = 4, A = [1, 2, 4, 4, 3] and B = [2, 3, 1, 3, 1], the function should return <tt style="white-space:pre-wrap">true</tt>. There is a path (1 → 2 → 3 → 4) using edges (1, 2), (2, 3) and (4, 3).</p>
+<p><img class="inline-description-image" src="https://codility-frontend-prod.s3.amazonaws.com/media/task_static/path_detection/static/images/auto/1204ee032a07ba0a2edd3658c1611b90.png" alt="Picture illustrates the first example test"></p>
+<p>2. Given N = 4, A = [1, 2, 1, 3] and B = [2, 4, 3, 4], the function should return <tt style="white-space:pre-wrap">false</tt>. There is no path (1 → 2 → 3 → 4), as there is no direct connection from vertex 2 to vertex 3.</p>
+<p><img class="inline-description-image" src="https://codility-frontend-prod.s3.amazonaws.com/media/task_static/path_detection/static/images/auto/84a2146de65b3fe481c9774d9527d2a0.png" alt="Picture illustrates the second example test"></p>
+<p>3. Given N = 6, A = [2, 4, 5, 3] and B = [3, 5, 6, 4], the function should return <tt style="white-space:pre-wrap">false</tt>. There is no direct connection from vertex 1 to vertex 2.</p>
+<p><img class="inline-description-image" src="https://codility-frontend-prod.s3.amazonaws.com/media/task_static/path_detection/static/images/auto/f377484ec6aedb830a9e2dd305977382.png" alt="Picture illustrates the third example test"></p>
+<p>4. Given N = 3, A = [1, 3] and B = [2, 2], the function should return <tt style="white-space:pre-wrap">true</tt>. There is a path (1 → 2 → 3) using edges (1, 2) and (3, 2).</p>
+<p><img class="inline-description-image" src="https://codility-frontend-prod.s3.amazonaws.com/media/task_static/path_detection/static/images/auto/e3add19ad0e3bfb9593d7f2abc44d0d2.png" alt="Picture illustrates the fourth example test"></p>
+<p>Write an <b><b>efficient</b></b> algorithm for the following assumptions:</p>
+<blockquote><ul style="margin: 10px;padding: 0px;"><li>N is an integer within the range [<span class="number">2</span>..<span class="number">100,000</span>];</li>
+<li>M is an integer within the range [<span class="number">0</span>..<span class="number">100,000</span>];</li>
+<li>all elements of arrays A and B are integers within the range [1..N];</li>
+<li>there are no self-loops (edges with A[K] = B[K]) in the graph;</li>
+<li>there are no multiple edges between the same vertices.</li>
+</ul>
+</blockquote></div>

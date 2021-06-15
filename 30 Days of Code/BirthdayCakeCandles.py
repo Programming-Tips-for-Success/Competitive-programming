@@ -36,18 +36,9 @@ Sample Input 0
 Sample Output 0
 
 2
-
-Explanation 0
-
-We have one candle of height
-, one candle of height , and two candles of height . Your niece only blows out the tallest candles, meaning the candles where . Because there are such candles, we print on a new line. 
 '''
 
-import math
-import os
-import random
-import re
-import sys
+
 
 # Complete the birthdayCakeCandles function below.
 def birthdayCakeCandles(ar):
@@ -55,15 +46,9 @@ def birthdayCakeCandles(ar):
     return maxel
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    ar_count = int(input())
 
-    ar = list(map(int, input().rstrip().split()))
-
-    result = birthdayCakeCandles(ar)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+ar_count = int(input())
+ar = list(map(int, input().rstrip().split()))
+result = birthdayCakeCandles(ar)
+print(str(result))
