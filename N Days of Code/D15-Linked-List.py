@@ -1,3 +1,8 @@
+# topics to cover
+# Iterative & recursive approaches
+# Doubly LinkedList, flattering linked list
+# Sorting and searching operations on LL
+
 '''
 Objective
 Today we're working with Linked Lists. Check out the Tutorial tab for learning materials and an instructional video!

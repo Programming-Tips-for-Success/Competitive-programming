@@ -1,3 +1,7 @@
+# topics to cover
+# Basic BST
+# AVL tree
+# red black tree
 '''
 Objective
 Today, we're working with Binary Search Trees (BSTs). Check out the Tutorial tab for learning materials and an instructional video!

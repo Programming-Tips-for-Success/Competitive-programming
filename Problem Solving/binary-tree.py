@@ -1,3 +1,11 @@
+# topics to cover
+# Binary Search Tree, N-ary Tree
+# Print BT from Different View
+# Conversion of BT, Post-Order,InOrder, PreOrder Operations
+# Mirror Operations, Leaf Nodes Distances,Lowest Common Ansesters
+# Recursive and Iterative Operations
+# Note : Un-important topic in Tree is B* Tree, Red Black Tree,AVL tree, Segment Tree
+
 # interiewers indirectly ask this
 # “given a binary tree.” Other times it’s implicit, like “we want to track the number of books associated with each author.”''
 

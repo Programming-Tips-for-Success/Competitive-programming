@@ -1,3 +1,9 @@
+# Hashing/Heap Operations
+# Hashing O(1) Operation,
+# Priority Queue, MaxHeap/Min Heap,
+# Heapify Operation, Find Medians,
+# Merge Operation in O(Logn) using Heap
+
 # Hash tables?
 # Hash Table is a data structure which stores data in an associative manner. In this, data is stored in an array format, where each data value has its own unique index value.
 # Use Hash Table for quick lookups

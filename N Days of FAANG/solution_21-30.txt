@@ -575,7 +575,7 @@ bool dfs(int u, vector<int> adj[], int col[], bool vis[], int c){
 -----------------------------------------------------------------------------------------
 Day24: (Graph)
 ----------------
-1. SCC(using KosaRaju’s algo) 
+1. SCC(using KosaRajuï¿½s algo) 
 -> first do dfs on graph and fill stack as node processed.(topo sort)
 -> then transpose graph.
 -> start Dfs on new graph and start node from out stack and mark visited.
@@ -583,7 +583,7 @@ and maintain array as node comes add to array. when stuck means we find first sc
 unvisited node from stack.
 
 ------------------------------------------------------------------------
-2. Djisktra’s Algorithm 
+2. Djisktraï¿½s Algorithm 
 -> we use priority queue for getting shortest distance node and do BFS there.
 ------------------------------------------------------------------------
 3. Bellman Ford Algo 
@@ -613,11 +613,11 @@ for (k = 0; k < V; k++)
     }  
 
 ------------------------------------------------------------------------------
-5. MST using Prim’s Algo 
+5. MST using Primï¿½s Algo 
 
 
 ------------------------------------------------------------------------------
-6. MST using Kruskal’s Algo  
+6. MST using Kruskalï¿½s Algo  
 -> very eusy algorithm.
 -> just sort node by weight and traverse on that at start each node from diff group now one by one
 merge node.
@@ -628,6 +628,7 @@ code :------
 #include<bits/stdc++.h>
 using namespace std;
 
+Disjoint set 
 // Disjoint set union algorithm.
 
 struct Edge {

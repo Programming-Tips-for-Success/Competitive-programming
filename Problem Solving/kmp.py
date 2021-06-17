@@ -1,6 +1,7 @@
  
 
 
+# KMP algo
 # Knuth-Morris-Pratt String Matching (KMP)
 # Knuth-Morris-Pratt algorithm  used  for finding sub string.
 # in this we reduce the iteration on pattern.

@@ -1,3 +1,7 @@
+# cycle sort
+# heap sort
+
+
 '''
 Objective
 Today, we're discussing a simple sorting algorithm called Bubble Sort. Check out the Tutorial tab for learning materials and an instructional video!

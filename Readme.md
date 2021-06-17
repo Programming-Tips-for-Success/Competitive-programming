@@ -27,4 +27,8 @@ https://www.codechef.com/users/sunnygupta001
 https://www.hackerearth.com/@sunnyvales 
 https://www.spoj.com/status/sunnyvale/
 
+firstly think and write logic
+There is no pint in seeing the solution directly
+
+node js-solutions/array-comparison.js
 

@@ -78,6 +78,10 @@ Day9: (Backtracking)  (with Recursion also)
 5. Print all Permutations of a string/array 
 6. Word Break (print all ways)  
 
+Applying recursion or backtracking techniques on different games
+find permutations, recursive efficient approaches
+Problem based on Greedy Algorithms
+Note : Recursion is most imp topic in DSA
 
 Day10: 
 1. Combination sum-1 
@@ -223,6 +227,13 @@ Day25: (Dynamic Programming)
       6. Maximum sum increasing subsequence  
       7. Matrix Chain Multiplication 
 
+How to identify DP problems
+Single Strings Problems: Longest Palindrome Subsequences/String,
+Word Break, LIS(Longest Increasing Subsequence),Subset problems
+Two Strings Problems: Longest Common Subsequences/Strings, Edit Distance
+Interleave Strings, Wild card match,
+Fibonacci Series: Nth Stair, Keystroke Algorithm
+Note: Once tricks is understood then DP is comparatively very easy to solve
 
 Day26: (DP) 
       1. Maximum sum path in matrix, (count paths, and similar type do, also backtrack to find the maximum path) 
@@ -256,9 +267,10 @@ Day30:
  find a shortest path, another one was a ad-HOC problem.
  What are the 10 algorithms one must know in order to solve most algorithm problems?
 
-Tries
+Tries (seperte topics)
 Dijkstra's Algorithm
 
+Segment Tree
 Segment Tree (with lazy propagation)
 Persistent Segment Tree
 
@@ -311,7 +323,20 @@ Stacks/Queues: sort values in stack, implement two stacks using one array
 Linked List: find length and middle, search in singly linked list, reverse linked list
 Trees, Tries: total number of words in Trie, find all words stored in Trie
 Heaps: find k smallest or largest elements in list
-Graphs (BFS and DFS)
+Graphs algorithms- things to cover
+BFS and DFS
+PRIM'S ALGORITHM
+DIJKSTRA'S SHORTEST PATH ALGO - Fast Dijkstra´s algorithm 
+BELLMANFORD SHORTEST PATH ALGO
+KOSARAJU'S ALGORITHM
+TARJAN’S ALGORITHM
+Topological Sorting, Package Dependency ,Phone Dictionary Algorithms
+Trie Implementation and Applications based on it
+Longest Prefix , Matrix Related Assignments
+Note: Prefix Tree is not much important for Interview perspective 
+Strongly connected components 
+Eulerian path 
+
 Save all leaf nodes of a Binary tree in a Doubly Linked List by using Right node as Next node and Left Node as Previous Node.
 Given an array,find the maximum j – i such that arr[j] > arr[i]
 
@@ -383,8 +408,6 @@ You are given a string of 0’s and 1’s you have to find the number of substri
 eg : input : 0010110010 
 output : 6 
 
-# Catalan numbers
-
 
 https://www.geeksforgeeks.org/amazon-sde-1-interview-experience-wow-2020/
 https://www.geeksforgeeks.org/minimum-time-to-burn-a-tree-starting-from-a-leaf-node/
@@ -395,3 +418,11 @@ https://practice.geeksforgeeks.org/problems/shortest-path-between-cities/1#
 https://practice.geeksforgeeks.org/problems/963b3db8c7ac09d564c9d354c07af13c624ba94d/1
 
 https://practice.geeksforgeeks.org/problems/neemans-shoes/1/#
+
+Suffix array 
+Binary Indexed Tree 
+ Union-find set 
+ KD-tree 
+ Splay tree 
+ Lazy segment tree 
+ Lowest common ancestor .
