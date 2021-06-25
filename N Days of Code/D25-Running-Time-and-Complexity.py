@@ -145,3 +145,5 @@ print(prime(5))
 
 # O(1) < O(n) < O(nlogn) < O(n*2)
 
+
+

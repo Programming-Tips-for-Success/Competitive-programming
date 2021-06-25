@@ -3,6 +3,16 @@
 # Doubly LinkedList, flattering linked list
 # Sorting and searching operations on LL
 
+# The following operations make linked lists an ADT:
+# Main Linked Lists Operations
+#  Insert: inserts an element into the list
+#  Delete: removes and returns the specified position element from the list
+
+# Auxiliary Linked Lists Operations
+#  Delete List: removes all elements of the list (disposes the list)
+#  Count: returns the number of elements in the list
+#  Find 𝑛𝑡ℎ node from the end of the list
+
 '''
 Objective
 Today we're working with Linked Lists. Check out the Tutorial tab for learning materials and an instructional video!
@@ -367,3 +377,6 @@ mylist.display(head);
 # For example, 2 is a prime that is 1 more than the perfect square 1.
 # design the data structures for Zomato cuisines adding and removing system, different ways of designing approaches.
 # finding middle element of linked list 
+# Deleting the First Node in Singly Linked List
+# Deleting the Last node in Singly Linked List
+# Deleting Singly Linked List

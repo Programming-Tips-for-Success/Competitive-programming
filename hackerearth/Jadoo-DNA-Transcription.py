@@ -1,5 +1,4 @@
 '''
-Question
  Jadoo, the Space Alien has befriended Koba upon landing on Earth. Since then, he wishes Koba to be more like him. In order to do so, he decides to slowly transcribe Koba's DNA into RNA. But he has to write a very shortcode in order to do the transcription so as not to make Koba aware of the change.
 The four nucleotides found in DNA are adenine (A), cytosine (C), guanine (G) and thymine (T).
 The four nucleotides found in RNA are adenine (A), cytosine (C), guanine (G) and uracil (U).
@@ -15,10 +14,8 @@ SAMPLE INPUT
 C
 SAMPLE OUTPUT  
 G
- 
-Python program
- 
 '''
+
 DString=input('Please enter code')
 OutString=''
 flag='T'

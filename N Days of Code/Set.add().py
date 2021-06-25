@@ -1,6 +1,4 @@
 """
-Task
-
 Apply your knowledge of the .add() operation to help your friend Rupal.
 
 Rupal has a huge collection of country stamps. 
@@ -44,6 +42,8 @@ Explanation
 UK and France repeat twice.
 Hence, the total number of distinct country stamps is 5(five).
 """
+
+# Algo
 
 n=int(input())
 s=set()

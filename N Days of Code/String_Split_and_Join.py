@@ -1,29 +1,7 @@
 """
-In Python, a string can be split on a delimiter.
-
-Example:
-
->>> a = "this is a string"
->>> a = a.split(" ") # a is converted to a list of strings.
->>> print a
-['this', 'is', 'a', 'string']
-
-Joining a string is simple:
-
->>> a = "-".join(a)
->>> print a
-this-is-a-string
-
-Task
 You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
 
-Input Format
-The first line contains a string consisting of space separated words.
-
-Output Format
-Print the formatted string as explained above.
-
-Sample Input
+Sample Input -  string consisting of space separated words.
 
 this is a string
 
@@ -36,7 +14,33 @@ this-is-a-string
 def split_and_join(line):
     return "-".join(line.split(" "))
 
-if __name__ == '__main__':
-    line = raw_input()
-    result = split_and_join(line)
-    print(result)
+
+line = input()
+result = split_and_join(line)
+print(result)
+
+
+# string methods
+
+#  split usage
+
+a = "this is a string"
+b = a.split(" ") # a is converted to a list of strings.
+print (b)
+
+print('The happy cat ran home.'.upper()) # 'THE HAPPY CAT RAN HOME.'
+print('The happy cat ran home.'.find('cat')) # 10
+print('The happy cat ran home.'.find('kitten')) # -­1
+print('The happy cat ran home.'.replace('cat', 'dog')) # The happy dog ran home.
+
+print('0e32'.strip('0')) # e32
+
+#  The rstrip() method strips whitespace off the right side of a string:
+s1 = 'some text   \n d'
+s2 = s1.rstrip()
+print(s2)
+
+# The center(n) method centers a string within a padded string of width n:
+s1 = 'Dave'
+s2 = s1.center(20)
+print(s2)

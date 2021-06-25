@@ -1,6 +1,5 @@
+
 # What is the output of the following Python 3 code:
-
-
 import contextlib
 @contextlib.contextmanager
 def Program():

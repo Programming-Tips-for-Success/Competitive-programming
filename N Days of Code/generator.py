@@ -1,3 +1,21 @@
+#  ­ A generator function
+def generateItems(seq):
+    for item in seq:
+        yield 'item: %s' % item
+anIter = generateItems([])
+print ('dir(anIter):', dir(anIter))
+
+anIter = generateItems([111,222,333])
+for x in anIter:
+    print (x)
+
+# anIter = generateItems(['aaa', 'bbb', 'ccc'])
+# print (anIter.next())
+# print (anIter.next())
+# print (anIter.next())
+# print (anIter.next())
+
+
 # What is the output of the following Python 3 code:
 def Filter1(nums):
     for num in nums:

@@ -53,16 +53,50 @@ import sys
 # for _ in sorted(det.values()):
 #     print(_)
 
-pat = re.compile('aa[bc]*dd')
+# "abc*" matches "ab" followed by zero or more occurances of "c", for example,
+# "ab", "abc", "abcc", etc.
+# "abc+" matches "ab" followed by one or more occurances of "c", for example,
+# "abc", "abcc", etc, but not "ab".
+# "abc?" matches "ab" followed by zero or one occurances of "c", for example, "ab" or "abc".
+# Alternate patterns (separated by a vertical bar) match either of the alternative 
+# patterns. For example, "(aaa)|(bbb)" will match either "aaa" or "bbb".
+#  a set matches any character in the set or range. For example, "[abc]" 
+# matches "a" or "b" or "c". And, for example, "[_a-­z0­-9]" matches an underscore or any lower­case letter or any digit
+# () - concat data
 
-while 1:
-    line = input('Enter a line ("q" to quit):')
-    if line == 'q':
-        break
-    if pat.search(line):
-        print( 'matched:', line)
-    else:
-        print ('no match:', line)
+# "ab(cd)*ef" is a pattern that matches "ab" followed by any number of occurances of "cd" 
+# followed by "ef", for example, "abef", "abcdef", "abcdcdef", etc
 
+# "\d" (any digit), "\w" (any alphanumeric character), "\W" (any non­alphanumeric character)
+
+def testPattern():
+    pat = re.compile('aa[bc]*dd')
+
+    while 1:
+        line = input('Enter a line ("q" to quit):')
+        if line == 'q':
+            break
+        if pat.search(line):
+            print( 'matched:', line)
+        else:
+            print ('no match:', line)
+
+pat = re.compile('aa[0-­9]*bb')
+
+# Use match() to match at the beginning of a string (or not at all).
+# Use search() to search a string and match the first string from the left
+# When a match or search is successful, it returns a match object. When it fails, it 
+# returns None
+x = pat.match('aa1234bbccddee')
+print(x, '')
+
+x = pat.match('xxxxaa1234bbccddee')
+print(x)
+
+x = pat.search('xxxxaa1234bbccddee')
+print(x)
+
+x = re.search(pat, 'xxxxaa1234bbccddee')
+print(x)
 
 # Write a function that can accept a regex like “*t*e*s*t*”.

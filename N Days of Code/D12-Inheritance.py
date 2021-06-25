@@ -47,7 +47,7 @@ class Person:
 		print("ID:", self.idNumber)
 class Student(Person):
     def __init__(self, firstName, lastName, idNumber, scores):
-        super().__init__(firstName, lastName, idNumber)
+        super().__init__(firstName, lastName, idNumber) # you can also use person class
         self.scores=scores
         
     def calculate(self):

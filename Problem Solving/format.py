@@ -47,11 +47,7 @@ print ("The value of a is: " + str(a))
 b=6
 print ("The value of a is: " + b)  # show error
 
-# to fetch object key values use items
-table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678} 
-for name, phone in table.items(): 
-    print(f'{name:10} ==> {phone:10d}')
-    print(name, phone)
+
     
 # ‘**’ notation.  
 table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678} 
@@ -64,43 +60,15 @@ fruits = ['apple', 'banana', 'cherry']
 d = 'cherry'
 if d in fruits:
     print(fruits.index(d))
-abc = ['x', 'y', 'z']
 
-# To print the whole array-
-print(abc[:]) 
-# To print substring-
-str = 'sun'
-print(str[:2] ) # upto 1 index o/p -> su
-print(str[2:]) # start from 2 index  -> n
-print(str[-2])  # u
-print(str[-2:])  # un
-# To print array elements-
-x = [1, 2, 3, 4]   
-print(x[1:3])  # 1 and go upto the index 2   
-# output-
-# [2, 3]  
+  
 flag = 2; ropes = 3; pole = 4 
 print(flag)
 print("5"*6)
 print (' ' is ' ')
-nums = []     
-nums.append(21)  
-nums.append(40.5)  
-nums.append("String")  
-print(nums)  
-abc = ['x', 'y', 'z']
-abc.remove("z")
-print(abc)
-stack = ['a', 'b', 'c'] 
-print(stack.pop()) 
-print(stack) 
-que = ['a', 'b', 'c'] 
-print(que.pop(0)) 
-print(que) 
-print ({} is {}) 
-obj = {'r':'e'}
-print(obj.get('r'))
-print(obj['r'])
+ 
+
+
 basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana'] 
 for f in (set(basket)): 
    print(f) 
@@ -173,19 +141,7 @@ print (not True)
 a = [1, 2, 3]  
 del a[1]  
 print(a) 
-a = 10 
-def read():  
-    print (a)  
-def mod1():  
-    global a   
-    a = a + 1
-    print (a) 
-def mod2():  
-    a = 15 
-    print (a) 
-read() 
-mod1()
-mod2()
+
 def outer():  
     a = 50 
     def inner():  
@@ -208,9 +164,7 @@ for f in sorted(set(basket)):
 for step in range(5):      
     print(step)  
 
-a = [1, 2, 3, 4]  
-for i in range(4):  
-    print(a[i])
+
 
 a= list(range(3, 6))          
 print(a) 
@@ -229,8 +183,7 @@ for x in range(69,81):
     print(x) 
 import math 
 print(dir(math))  
-for i, v in enumerate(['tic', 'tac', 'toe']): 
-   print(i, v) 
+
 def make_incrementor(n):    
     return lambda x: x + n 
 f = make_incrementor(42) 
@@ -271,4 +224,3 @@ for q, a in zip(questions, answers):
    print('What is your {0}?  It is {1}.'.format(q, a))
 for i in reversed(range(1, 10, 2)): 
    print(i) 
-chr(ord('A'))

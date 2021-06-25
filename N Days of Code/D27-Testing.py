@@ -48,7 +48,7 @@ class TestDataEmptyArray(object):
     
     @staticmethod
     def get_array():
-        return []
+        return [{}]
 
 class TestDataUniqueValues(object):
 
@@ -78,7 +78,7 @@ def TestWithEmptyArray():
     except ValueError as e:
         pass
     else:
-        assert False
+        assert False , 'bad'
 
 
 def TestWithUniqueValues():
@@ -103,6 +103,6 @@ def TestiWithExactyTwoDifferentMinimums():
     assert result == expected_result
 
 TestWithEmptyArray()
-TestWithUniqueValues()
-TestiWithExactyTwoDifferentMinimums()
-print("OK")
+# TestWithUniqueValues()
+# TestiWithExactyTwoDifferentMinimums()
+# print("OK")
