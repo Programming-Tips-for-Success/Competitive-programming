@@ -1,10 +1,14 @@
-// # problem statement - compare arrays
-// # two people getting married both have invitee list find out they both want to invite exact same people
-// # input 2 array
-// # output check list same or not return boolean
+// problem statement - compare arrays
+// two people getting married both have invitee list find out they both want to invite exact same people
+
+// input 
+// 2 array
+
+// output 
+// check list same or not return boolean
 
 
-// # a hashmap is a data structure that lets you write and read in O(1) time
+// a hashmap is a data structure that lets you write and read in O(1) time
 
 function verifyAllEqual(list1, list2) {
     // fail fast if both Lists are not the same Length
@@ -40,5 +44,5 @@ function verifyAllEqual(list1, list2) {
     return true;
 }
 
-console.log(verifyAllEqual([1, 2, 3], [1, 2, 3]));
+console.log(verifyAllEqual([1, 2, 3], [3, 2, 1]));
 

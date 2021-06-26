@@ -3,10 +3,22 @@ a = [1, 2, 3, 4]
 for i in range(4):  
     print(a[i])
 
+for step in range(5):      
+    print(step)  
+
+a= list(range(3, 6))          
+print(a) 
+
 # direct list
 a = [1, 2, 3, 4]  
 for i in a:  
     print(i, 'd')
+
+arr = [2, 3]
+summation = 0
+for x in arr:  
+    summation += x  
+print(summation)   # 5
 
 # enumerate process items in a sequence with an index.
 for i, v in enumerate(['tic', 'tac', 'toe']): 
@@ -23,3 +35,8 @@ def f(x):
 list1 = [11, 22, 33]
 list2 = [f(x) for x in list1]
 print (list2)
+
+questions = ['name', 'quest', 'favorite color'] 
+answers = ['lancelot', 'the holy grail', 'blue'] 
+for q, a in zip(questions, answers): 
+   print('What is your {0}?  It is {1}.'.format(q, a))

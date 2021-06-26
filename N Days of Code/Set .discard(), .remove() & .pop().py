@@ -131,3 +131,8 @@ for i in range(inst):
     else:
         pass
 print(sum(s))
+
+# set usage
+basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana'] 
+for f in (set(basket)): 
+   print(f) 

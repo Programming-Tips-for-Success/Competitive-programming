@@ -60,3 +60,7 @@ def Main():
 Main()
 
 print(f'The value of pi is approximately {math.pi:.3f}.') 
+
+# abs usage
+x = abs(-7.25)
+print(x) 

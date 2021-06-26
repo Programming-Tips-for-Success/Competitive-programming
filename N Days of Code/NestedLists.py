@@ -66,3 +66,9 @@ secondlast=min(numlist)
 names=[name[0] for name in students if name[1]==secondlast]
 for i in sorted(names):
     print(i)
+
+
+# sorted usage
+basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana'] 
+for f in sorted(set(basket)): 
+   print(f) 

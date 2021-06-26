@@ -11,6 +11,7 @@ code
 Time and space complexity 
 General cases, base cases, error cases
 create common functions so that you can reuse that
+every problem can be solved with recursion and without recursion
 
 https://leetcode.com/sunnyvales/
 https://auth.geeksforgeeks.org/user/sunnygp07/profile 
@@ -30,5 +31,7 @@ https://www.spoj.com/status/sunnyvale/
 firstly think and write logic
 There is no pint in seeing the solution directly
 
-node js-solutions/array-comparison.js
+node js-solutions/array-comparison.js contact-search.js
+node regex/test.js
+
 

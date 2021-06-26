@@ -100,3 +100,24 @@ for item in tup:
         pass
 
 print(total)
+
+# lambda usage
+def make_incrementor(n):    
+    return lambda x: x + n 
+f = make_incrementor(42) 
+print(f(0)) # 42
+print(f(1)) # 43
+
+# Hash Tables and hasmaps in Python are a type of data structures that map keys to their value pairs
+# Python dictionary is a built-in type that supports key-value pairs.
+
+# Python Counter, dict are good options:
+
+from collections import Counter
+
+counter = Counter(["Sachin Tendulkar", "Sachin Tendulkar", "other things"])
+
+print(counter)
+
+# This returns a dict with the count of each element in the list:
+Counter({'Sachin Tendulkar': 2, 'other things': 1})

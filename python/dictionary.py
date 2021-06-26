@@ -4,7 +4,7 @@ obj = {'r':'e'}
 print(obj.get('r'))
 print(obj['r'])
 
-lookup = dict((('aa', 11), ('bb', 22), ('cc', 33)))
+lookup = dict((('aa', 11), ('bb', 22), ('cc', 33), (23, 33)))
 print(lookup)
 
 if 'aa' in lookup:
