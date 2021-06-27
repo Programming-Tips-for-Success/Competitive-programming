@@ -41,23 +41,23 @@ Test Case 2:
 is only divisible and itself, so we print on a new line.
 '''
 import math
-# nums=list()
-# if __name__ == '__main__':
-#     n = int(input())
-#     for i in range(n):
-#         nums.append(int(input()))
-# for _ in nums:
-#     if _ == 1 or _ == 0:
-#         print('Not prime')
-#     else:
-#         m=0
-#         for a in range(2,int(math.sqrt(_))+1):
-#             if _%a == 0:
-#                 m+=1
-#         if m == 0:
-#             print('Prime')
-#         else:
-#             print('Not prime')
+nums=list()
+def checkPrime():
+    n = int(input())
+    for i in range(n):
+        nums.append(int(input()))
+for _ in nums:
+    if _ == 1 or _ == 0:
+        print('Not prime')
+    else:
+        m=0
+        for a in range(2,int(math.sqrt(_))+1):
+            if _%a == 0:
+                m+=1
+        if m == 0:
+            print('Prime')
+        else:
+            print('Not prime')
 
 def isPrime(n): 
    if(n<=1): 
@@ -84,7 +84,7 @@ def SieveOfEratosthenes(n):
         if prime[p]: 
             print (p, end= " ")
 
-# SieveOfEratosthenes(10)
+SieveOfEratosthenes(10)
 
 #   Find the sum of all the prime numbers less than 1000 that are 1 more than a perfect square.
 
@@ -108,7 +108,7 @@ def SieveOfEratosthenes2(n):
                 print('perfect', p, root)
     print(sum, 'sum')
             
-# SieveOfEratosthenes2(20)
+SieveOfEratosthenes2(20)
 
 #   Return the next higher prime number
 

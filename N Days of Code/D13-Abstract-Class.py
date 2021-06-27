@@ -1,6 +1,6 @@
 '''
 Objective
-Today, we're taking what we learned yesterday about Inheritance and extending it to Abstract Classes. Because this is a very specific Object-Oriented concept, submissions are limited to the few languages that use this construct. Check out the Tutorial tab for learning materials and an instructional video!
+Today, we're taking what we learned yesterday about Inheritance and extending it to Abstract Classes. Because this is a very specific Object-Oriented concept, 
 
 Task
 Given a Book class and a Solution class, write a MyBook class that does the following:
@@ -67,7 +67,8 @@ from abc import ABCMeta, abstractmethod
 class Book(object, metaclass=ABCMeta):
     def __init__(self,title,author):
         self.title=title
-        self.author=author   
+        self.author=author
+
     @abstractmethod
     def display(self):
         pass
@@ -79,6 +80,7 @@ class MyBook(Book):
 
     def display(self):
         print("Title: {}\nAuthor: {}\nPrice: {}".format(self.title,self.author,self.price))
+
 title=input()
 author=input()
 price=int(input())

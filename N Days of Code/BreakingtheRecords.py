@@ -77,13 +77,7 @@ image
 She broke her best record four times (after games
 , , , and ) and her worst record zero times (no score during the season was lower than the one she earned during her first game), so we print 4 0 as our answer.
 '''
-import math
-import os
-import random
-import re
-import sys
 
-# Complete the breakingRecords function below.
 def breakingRecords(scores):
     ma,mi,l,h=scores[0],scores[0],0,0
     for el in scores:
@@ -96,16 +90,11 @@ def breakingRecords(scores):
     return [h,l]
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    n = int(input())
+n = int(input())
 
-    scores = list(map(int, input().rstrip().split()))
+scores = list(map(int, input().rstrip().split()))
 
-    result = breakingRecords(scores)
+result = breakingRecords(scores)
 
-    fptr.write(' '.join(map(str, result)))
-    fptr.write('\n')
-
-    fptr.close()
+print(' '.join(map(str, result)))

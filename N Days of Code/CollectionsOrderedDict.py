@@ -1,11 +1,6 @@
 '''
-
-
-Task
-
 You are the manager of a supermarket.
 You have a list of
-
 items together with their prices that consumers bought on a particular day.
 Your task is to print each item_name and net_price in order of its first occurrence.
 
@@ -15,15 +10,9 @@ net_price = Quantity of the item sold multiplied by the price of each item.
 Input Format
 
 The first line contains the number of items,
-.
-The next
-
-lines contains the item's name and price, separated by a space.
-
-Constraints
+The next lines contains the item's name and price, separated by a space.
 
 Output Format
-
 Print the item_name and net_price in order of its first occurrence.
 
 Sample Input
@@ -60,15 +49,16 @@ Net Price:
 '''
 
 from collections import OrderedDict
-if __name__ == '__main__':
-    n = int(input())
-    l=OrderedDict()
-    for i in range(n):
-        d=input().split()
-        c=d[:-1]
-        try:
-            l[' '.join(c)]+=int(d[-1])
-        except:
-            l[' '.join(c)]=int(d[-1])
+
+n = int(input())
+l=OrderedDict()
+for i in range(n):
+    d=input().split()
+    c=d[:-1]
+    try:
+        l[' '.join(c)]+=int(d[-1])
+    except:
+        l[' '.join(c)]=int(d[-1])
+
 for i in l.keys():
     print(i,l[i])

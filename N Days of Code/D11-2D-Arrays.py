@@ -1,6 +1,7 @@
 '''
+column * row
 Objective
-Today, we're building on our knowledge of Arrays by adding another dimension. Check out the Tutorial tab for learning materials and an instructional video!
+Today, we're building on our knowledge of Arrays by adding another dimension. 
 Context
 Given a
 2D Array,
@@ -60,28 +61,22 @@ The hourglass with the maximum sum (
   2
 1 2 4
 '''
-import math
-import os
-import random
-import re
-import sys
 
-if __name__ == '__main__':
-    arr = []
-    for _ in range(6):
-        arr.append(list(map(int, input().rstrip().split())))
-    sums = []
-    for i in range(len(arr) - 2):
-        for j in range(len(arr[i]) - 2):
-            val = 0
-            for row in range(i, i + 3):
-                for col in range(j, j + 3):
-                    if row == i or row == i + 2:
-                        val += arr[row][col]
-                    elif row == i + 1 and col == j + 1:
-                        val += arr[row][col]
-            sums.append(val)
-    print(max(sums))
+arr = []
+for _ in range(6):
+    arr.append(list(map(int, input().rstrip().split())))
+sums = []
+for i in range(len(arr) - 2):
+    for j in range(len(arr[i]) - 2):
+        val = 0
+        for row in range(i, i + 3):
+            for col in range(j, j + 3):
+                if row == i or row == i + 2:
+                    val += arr[row][col]
+                elif row == i + 1 and col == j + 1:
+                    val += arr[row][col]
+        sums.append(val)
+print(max(sums))
  
 
 def createEmptyMatrix(n):

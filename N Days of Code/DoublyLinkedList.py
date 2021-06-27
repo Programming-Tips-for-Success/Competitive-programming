@@ -88,18 +88,18 @@ class DoubleLinkedList:
         return
 
 
-# node1 = ListNode(15)
-# node2 = ListNode(8.2)
-# node3 = ListNode("Berlin")
-# node4 = ListNode(15)
-# track = DoubleLinkedList()
-# print("track length: %i" % track.list_length())
-# for current_node in [node1, node2, node3, node4]:
-#     track.add_list_item(current_node)
-#     print("track length: %i" % track.list_length())
-#     track.output_list()
-# results = track.unordered_search(15)
-# print(results)
-# track.remove_list_item_by_id(4)
-# track.output_list() 
+node1 = ListNode(15)
+node2 = ListNode(8.2)
+node3 = ListNode("Berlin")
+node4 = ListNode(15)
+track = DoubleLinkedList()
+print("track length: %i" % track.list_length())
+for current_node in [node1, node2, node3, node4]:
+    track.add_list_item(current_node)
+    print("track length: %i" % track.list_length())
+    track.output_list()
+results = track.unordered_search(15)
+print(results)
+track.remove_list_item_by_id(4)
+track.output_list() 
      

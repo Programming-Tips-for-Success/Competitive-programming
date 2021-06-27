@@ -1,6 +1,7 @@
 '''
 Objective
-Today we're discussing scope. Check out the Tutorial tab for learning materials and an instructional video!
+Today we're discussing scope. 
+
 The absolute difference between two integers,
 and , is written as . The maximum absolute difference between two integers in a set of positive integers, , is the largest absolute difference between any two integers in
 .
@@ -23,11 +24,14 @@ Constraints
 Output Format
 You are not responsible for printing any output; the Solution class will print the value of the
 instance variable.
+
 Sample Input
 3
 1 2 5
+
 Sample Output
 4
+
 Explanation
 The scope of the
 array and integer is the entire class instance. The class constructor saves the argument passed to the constructor as the
@@ -39,6 +43,7 @@ The maximum of these differences is , so it saves the value as the instance vari
 class Difference:
     def __init__(self, a):
         self.__elements = a
+
     def computeDifference(self):
         diff=0
         for _ in range(len(self.__elements)):
@@ -46,11 +51,11 @@ class Difference:
                 diff=max(diff,abs(self.__elements[_]-self.__elements[j]))
         self.maximumDifference=diff
 # End of Difference class
-# _ = input()
-# a = [int(e) for e in input().split(' ')]
-# d = Difference(a)
-# d.computeDifference()
-# print(d.maximumDifference)
+_ = input()
+a = [int(e) for e in input().split(' ')]
+d = Difference(a)
+d.computeDifference()
+print(d.maximumDifference)
 
 import math  
 def Main():  
@@ -63,4 +68,4 @@ print(f'The value of pi is approximately {math.pi:.3f}.')
 
 # abs usage
 x = abs(-7.25)
-print(x) 
+print(x) # 7.25

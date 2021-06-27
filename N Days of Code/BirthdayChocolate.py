@@ -92,13 +92,7 @@ Lily only wants to give Ron
 square of chocolate with an integer value of . Because the only square of chocolate in the bar satisfies this constraint, we print as our answer.
 '''
 
-import math
-import os
-import random
-import re
-import sys
 
-# Complete the birthday function below.
 def birthday(s, d, m):
     count,su=0,0
     for i in range(len(s)-m+1):
@@ -107,21 +101,13 @@ def birthday(s, d, m):
             count+=1
     return count
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+n = int(input().strip())
 
-    n = int(input().strip())
+s = list(map(int, input().rstrip().split()))
 
-    s = list(map(int, input().rstrip().split()))
+dm = input().rstrip().split()
 
-    dm = input().rstrip().split()
+d = int(dm[0])
 
-    d = int(dm[0])
-
-    m = int(dm[1])
-
-    result = birthday(s, d, m)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+m = int(dm[1])
+print(birthday(s, d, m))

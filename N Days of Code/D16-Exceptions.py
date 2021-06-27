@@ -1,6 +1,6 @@
 '''
 Objective
-Today, we're getting started with Exceptions by learning how to parse an integer from a string and print a custom error message. Check out the Tutorial tab for learning materials and an instructional video!
+Today, we're getting started with Exceptions by learning how to parse an integer from a string and print a custom error message. 
 
 Task
 Read a string,
@@ -55,9 +55,6 @@ Sample Case
 contains an integer, so it should not raise an exception when we attempt to convert it to an integer. Thus, we print the .
 Sample Case does not contain any integers, so an attempt to convert it to an integer will raise an exception. Thus, our exception handler prints Bad String.
 '''
-
-import sys
-
 S = input().strip()
 try:
     print(int(S))

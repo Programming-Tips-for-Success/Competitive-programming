@@ -54,9 +54,9 @@ Per the library's fee structure, we know that our fine will be
 . We then print the result of as our output.
 '''
 
-if __name__ == '__main__':
-    given=input()
-    expected=input()
+
+given=input()
+expected=input()
 dg,mg,yg=[int(i) for i in given.split()]
 de,me,ye=[int(i) for i in expected.split()]
 if yg-ye > 0:

@@ -1,6 +1,7 @@
 '''
 Objective
-Today, we're delving into Inheritance. Check out the attached tutorial for learning materials and an instructional video!
+Today, we're delving into Inheritance. 
+
 Task
 You are given two classes, Person and Student, where Person is the base class and Student is the derived class. Completed code for Person and a declaration for Student are provided for you in the editor. Observe that Student inherits all the properties of Person.
 Complete the Student class by writing the following:
@@ -42,6 +43,7 @@ class Person:
 		self.firstName = firstName
 		self.lastName = lastName
 		self.idNumber = idNumber
+
 	def printPerson(self):
 		print("Name:", self.lastName + ",", self.firstName)
 		print("ID:", self.idNumber)
@@ -64,6 +66,7 @@ class Student(Person):
             return 'D'
         else:
             return 'T'
+
 line = input().split()
 firstName = line[0]
 lastName = line[1]
@@ -74,6 +77,7 @@ s = Student(firstName, lastName, idNum, scores)
 s.printPerson()
 print("Grade:", s.calculate())
 
+# Another example
 class Basic:
     def __init__(self, name):
         self.name = name
@@ -85,6 +89,7 @@ class Special(Basic):
         Basic.__init__(self, name)
         self.upper = name.upper()
         self.edible = edible
+
     def show(self):
         Basic.show(self)
         print( 'Special ­­ upper name: %s.' % self.upper)
@@ -99,10 +104,13 @@ class Special(Basic):
 class Advanced():
     def __init__(self, name):
         self.name = name
+    
     def Description():
         return 'This is an advanced class.'
+    
     def ClassDescription(cls):
         return 'This is advanced class: %s' % repr(cls)
+    
     Description = staticmethod(Description)
     ClassDescription = classmethod(ClassDescription)
 

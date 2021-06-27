@@ -61,3 +61,5 @@ if __name__ == '__main__':
     m=int(input())
 print(pow(a,b))
 print(pow(a,b,m))
+
+print(2**4) # 2 raised to power 4

@@ -48,8 +48,8 @@ q.EnQueue(30)
 q.EnQueue(40) 
 q.EnQueue(50)  
 q.DeQueue()    
-print("Queue Front " + str(q.front.dataval)) 
-print("Queue Rear " + str(q.rear.dataval)) 
+print("Queue Front " + str(q.front.dataval))  # 40
+print("Queue Rear " + str(q.rear.dataval))  # 50
 
 
 

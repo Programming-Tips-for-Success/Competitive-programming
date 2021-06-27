@@ -5,35 +5,9 @@ Basically, namedtuples are easy to create, lightweight object types.
 They turn tuples into convenient containers for simple tasks.
 With namedtuples, you don’t have to use integer indices for accessing members of a tuple.
 
-Example
-
-Code 01
-
->>> from collections import namedtuple
->>> Point = namedtuple('Point','x,y')
->>> pt1 = Point(1,2)
->>> pt2 = Point(3,4)
->>> dot_product = ( pt1.x * pt2.x ) +( pt1.y * pt2.y )
->>> print dot_product
-11
-
-Code 02
-
->>> from collections import namedtuple
->>> Car = namedtuple('Car','Price Mileage Colour Class')
->>> xyz = Car(Price = 100000, Mileage = 30, Colour = 'Cyan', Class = 'Y')
->>> print xyz
-Car(Price=100000, Mileage=30, Colour='Cyan', Class='Y')
->>> print xyz.Class
-Y
-
 Task
 
 Dr. John Wesley has a spreadsheet containing a list of student's
-, , and
-
-.
-
 Your task is to help Dr. Wesley calculate the average marks of the students.
 
 Note:
@@ -49,7 +23,7 @@ The next lines contains the , , and
 
 , under their respective column names.
 
-Constraints
+
 
 Output Format
 
@@ -86,26 +60,33 @@ TESTCASE 01
 TESTCASE 02
 
 81.00
-
-Explanation
-
-TESTCASE 01
-
-Average =
-Can you solve this challenge in 4 lines of code or less?
-NOTE: There is no penalty for solutions that are correct but have more than 4 lines.
 '''
 
 from collections import namedtuple
-if __name__ == '__main__':
-    n = int(input())
-    Student=namedtuple('Student',input())
-    Slist=list()
-    for i in range(n):
-        d=input().split()
-        Slist.append(Student(*d))
+
+n = int(input())
+Student=namedtuple('Student',input())
+Slist=list()
+for i in range(n):
+    d=input().split()
+    Slist.append(Student(*d))
+
 total=0
 for S in Slist:
     total+=int(S.MARKS)
 
 print('{:.2f}'.format(total/n))
+
+# namedtuple example
+
+Point = namedtuple('Point','x,y')
+pt1 = Point(1,2)
+pt2 = Point(3,4)
+dot_product = ( pt1.x * pt2.x ) +( pt1.y * pt2.y )
+print (dot_product) # 11
+
+Car = namedtuple('Car','Price Mileage Colour Class')
+xyz = Car(Price = 100000, Mileage = 30, Colour = 'Cyan', Class = 'Y')
+print (xyz) # Car(Price=100000, Mileage=30, Colour='Cyan', Class='Y')
+print (xyz.Class) # Y
+

@@ -1,27 +1,5 @@
 '''
-collections.Counter()
-A counter is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.
-
-Sample Code
-
->>> from collections import Counter
->>> 
->>> myList = [1,1,2,3,4,5,3,2,3,4,2,1,2,3]
->>> print Counter(myList)
-Counter({2: 4, 3: 4, 1: 3, 4: 2, 5: 1})
->>>
->>> print Counter(myList).items()
-[(1, 3), (2, 4), (3, 4), (4, 2), (5, 1)]
->>> 
->>> print Counter(myList).keys()
-[1, 2, 3, 4, 5]
->>> 
->>> print Counter(myList).values()
-[3, 4, 4, 2, 1]
-
-Task
-
-is a shoe shop owner. His shop has number of shoes.
+x is a shoe shop owner. His shop has number of shoes.
 He has a list containing the size of each shoe he has in his shop.
 There are number of customers who are willing to pay
 
@@ -38,19 +16,7 @@ The first line contains
 The second line contains the space separated list of all the shoe sizes in the shop.
 The third line contains , the number of customers.
 The next lines contain the space separated values of the desired by the customer and
-
 , the price of the shoe.
-
-Constraints
-
-
-
-
-Output Format
-
-Print the amount of money earned by
-
-.
 
 Sample Input
 
@@ -64,8 +30,9 @@ Sample Input
 18 60
 10 50
 
+Output Format
+Print the amount of money earned by
 Sample Output
-
 200
 
 Explanation
@@ -82,13 +49,15 @@ Total money earned =
 '''
 
 from collections import Counter
-if __name__ == '__main__':
-    n = int(input())
-    l = list(map(lambda x: int(x),input().split()))
-    t = int(input())
-    tup=list()
-    for i in range(t):
-        tup.append(tuple(map(lambda x: int(x),input().split())))
+
+
+n = int(input())
+l = list(map(lambda x: int(x),input().split()))
+t = int(input())
+tup=list()
+for i in range(t):
+    tup.append(tuple(map(lambda x: int(x),input().split())))
+
 total=0
 c=dict(Counter(l).items())
 for item in tup:
@@ -113,11 +82,25 @@ print(f(1)) # 43
 
 # Python Counter, dict are good options:
 
+# A counter is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.
+
 from collections import Counter
 
 counter = Counter(["Sachin Tendulkar", "Sachin Tendulkar", "other things"])
 
 print(counter)
-
 # This returns a dict with the count of each element in the list:
-Counter({'Sachin Tendulkar': 2, 'other things': 1})
+# Counter({'Sachin Tendulkar': 2, 'other things': 1})
+
+myList = [1,1,2,3,4,5,3,2,3,4,2,1,2,3]
+print (Counter(myList))
+# Counter({2: 4, 3: 4, 1: 3, 4: 2, 5: 1})
+
+print (Counter(myList).items())
+# dict_items[(1, 3), (2, 4), (3, 4), (4, 2), (5, 1)]
+
+print (Counter(myList).keys())
+# dict_keys[1, 2, 3, 4, 5]
+
+print (Counter(myList).values())
+# dict_values[3, 4, 4, 2, 1]

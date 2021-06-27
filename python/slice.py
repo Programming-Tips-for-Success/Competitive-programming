@@ -9,7 +9,9 @@ print(str[:2] ) # upto 1 index o/p -> su
 print(str[2:]) # start from 2 index  -> n
 print(str[-2])  # u
 print(str[-2:])  # un
+print(str[::-1]) # nus (reverse the string)
 
 x = [1, 2, 3, 4]   
 print(x[1:3])  # 1 and go upto the index 2    # [2, 3]
+print(x[::-1]) # [4, 3, 2, 1]
 

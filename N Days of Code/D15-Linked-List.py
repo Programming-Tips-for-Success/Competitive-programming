@@ -1,10 +1,9 @@
-# topics to cover
+# Topics to cover - The following operations make linked lists an ADT:
 # Iterative & recursive approaches
 # Doubly LinkedList, flattering linked list
-# Sorting and searching operations on LL
 
-# The following operations make linked lists an ADT:
 # Main Linked Lists Operations
+# Sorting and searching operations on LL
 #  Insert: inserts an element into the list
 #  Delete: removes and returns the specified position element from the list
 
@@ -14,12 +13,12 @@
 #  Find 𝑛𝑡ℎ node from the end of the list
 
 # Implement Stack using Linked List
+
 # You are given a pointer to the first element of a linked list 𝐿. There are two possibilities for 𝐿, it
 # either ends (snake) or its last element points back to one of the earlier elements in the list (snail). Task is to
 # devise an algorithm that tests whether a given list 𝐿 is a snake or a snail.
 
-# Check whether the given linked list is either NULL-terminated or not. If there is a cycle find the
-# start node of the loop.
+# Check whether the given linked list is either NULL-terminated or not. If there is a cycle find the start node of the loop.
 
 # Insert a node in a sorted linked list
 
@@ -31,13 +30,11 @@
 
 # Check whether the given Linked List length is even or odd?
 
-# If the head of a linked list is pointing to 𝑘𝑡ℎ element, then how will you get the elements before
-# 𝑘𝑡ℎ element
+# If the head of a linked list is pointing to 𝑘𝑡ℎ element, then how will you get the elements before 𝑘𝑡ℎ element
 
 # Given two sorted Linked Lists, we need to merge them into the third list in sorted order. 
 
-# Reverse the linked list in pairs. If you have a linked list that holds 1→2→3→4→𝑋, then after the
-# function has been called the linked list would hold 2→1→4→3→X
+# Reverse the linked list in pairs. If you have a linked list that holds 1→2→3→4→𝑋, then after the function has been called the linked list would hold 2→1→4→3→X
 
 # Given a binary tree convert it to doubly linked list.
 
@@ -104,9 +101,28 @@
 # you can use priority queue here
 
 # Given a unordered linked list, how do you remove duplicates in it?
+
+
+# Reverse the second half of a linked list 
+
+# remove duplicates from an unsorted singly linked list.
+# Write a program that returns the middle node of an unsorted linked list.
+# Given an unsorted singly linked list and an integer index, write a program that outputs the value of the node at the designated 
+# index position. 
+# Given a singly linked list, write a program the shifts every node kk unit to the left.
+# For example
+# When 4\rightarrow→6\rightarrow→8\rightarrow→9 is shifted 2 units left it becomes 8\rightarrow→9\rightarrow→4\rightarrow→6
+# Given a sorted circular linked list of Nodes that store integers and a new Node, insert the new Node into the correct position.
+# For example, 2 is a prime that is 1 more than the perfect square 1.
+# design the data structures for Zomato cuisines adding and removing system, different ways of designing approaches.
+# finding middle element of linked list 
+# Deleting the First Node in Singly Linked List
+# Deleting the Last node in Singly Linked List
+# Deleting Singly Linked List
+
 '''
 Objective
-Today we're working with Linked Lists. Check out the Tutorial tab for learning materials and an instructional video!
+Today we're working with Linked Lists.
 
 A Node class is provided for you in the editor. A Node object has an integer data field,
 , and a Node instance pointer,
@@ -178,9 +194,13 @@ class Node:
     def __init__(self,data):
         self.data = data
         self.next = None 
+        # self.dataval = dataval
+        # self.nextval = None
+        # return
 class Solution: 
     def __init__(self):
         self.headval = None
+
     def display(self,head):
         current = head
         while current is not None:
@@ -327,8 +347,7 @@ class Solution:
         new_Node = Node(newdata)
         new_Node.next = self.headval
         self.headval = new_Node
- 
-    
+     
     def removeDuplicates2(self): 
         temp = self.headval 
         if temp is None: 
@@ -356,7 +375,6 @@ class Solution:
               
         return slow
 
-
     # move last item to first place    
     def moveItems(self):
         tmp = self.headval
@@ -372,7 +390,6 @@ class Solution:
         # Make the last node as the first Node 
         tmp.next = self.headval 
         self.headval = tmp 
-
             
     # Pointer headval and p are being 
     # used here because, the headval 
@@ -444,30 +461,98 @@ class Solution:
         
         return head_ref
 
+    def printList2(self, node): 
   
+        while (node != None) : 
+            print( node.data, end=" ") 
+            node = node.next  
 
-mylist= Solution()
+    def sortedMerge(self, a, b): 
+        result = None
+          
+        # Base cases 
+        if a == None: 
+            return b 
+        if b == None: 
+            return a 
+              
+        # pick either a or b and recur.. 
+        if a.data <= b.data: 
+            result = a 
+            result.next = self.sortedMerge(a.next, b) 
+        else: 
+            result = b 
+            result.next = self.sortedMerge(a, b.next) 
+        return result  
+
+    def mergeSort(self, h): 
+          
+        # Base case if headval is None 
+        if h == None or h.next == None: 
+            return h 
+  
+        # get the middle of the list  
+        middle = self.getMiddle(h) 
+        nexttomiddle = middle.next
+  
+        # set the nextval of middle node to None 
+        middle.next = None
+  
+        # Apply mergeSort on left list  
+        left = self.mergeSort(h) 
+          
+        # Apply mergeSort on right list 
+        right = self.mergeSort(nexttomiddle) 
+  
+        # Merge the left and right lists  
+        sortedlist = self.sortedMerge(left, right) 
+        return sortedlist
+  
+list1= Solution()
 T=int(input())
 head=None
+
 for i in range(T):
     data=int(input())
-    head=mylist.insert(head,data)
-head=mylist.removeDuplicates(head)    
-mylist.display(head); 
 
-# Reverse the second half of a linked list 
+    head=list1.insert(head,data)
 
-# remove duplicates from an unsorted singly linked list.
-# Write a program that returns the middle node of an unsorted linked list.
-# Given an unsorted singly linked list and an integer index, write a program that outputs the value of the node at the designated 
-# index position. 
-# Given a singly linked list, write a program the shifts every node kk unit to the left.
-# For example
-# When 4\rightarrow→6\rightarrow→8\rightarrow→9 is shifted 2 units left it becomes 8\rightarrow→9\rightarrow→4\rightarrow→6
-# Given a sorted circular linked list of Nodes that store integers and a new Node, insert the new Node into the correct position.
-# For example, 2 is a prime that is 1 more than the perfect square 1.
-# design the data structures for Zomato cuisines adding and removing system, different ways of designing approaches.
-# finding middle element of linked list 
-# Deleting the First Node in Singly Linked List
-# Deleting the Last node in Singly Linked List
-# Deleting Singly Linked List
+head=list1.removeDuplicates(head) 
+
+list1.display(head); 
+
+
+node1 = Node("Mon")
+list1.headval = node1
+e2 = Node("Tue")
+e3 = Node("Wed")
+list1.headval.next = e2
+e2.next = e3
+list1.pushData(10)
+list1.pushData(56)
+list1.pushData(89)
+list1.AtBegining("Sun")
+list1.Inbetween(list1.headval.next,"Fri")
+list1.AtEnd("Thu")
+list1.RemoveNode("Tue")
+list1.removeDuplicates()
+print("track length: %i" % list1.list_length())
+print("middle element is:" + (list1.getMiddle(list1.headval).data)) 
+list1.printParticularItem(4)
+list1.moveItems()
+  
+length = 0 
+start = None
+start = list1.push(start, 5) 
+start = list1.push(start, 4) 
+start = list1.push(start, 3) 
+start = list1.push(start, 2) 
+start = list1.push(start, 1) 
+start = list1.push(start, 0) 
+
+list1.moveToFront(start, None, 3) 
+list1.printList2(start)
+
+
+list1.mergeSort(list1.headval) 
+

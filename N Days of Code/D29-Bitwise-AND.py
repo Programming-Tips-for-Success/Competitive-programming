@@ -46,7 +46,7 @@ maximum possible values
 
 def maxbit(n, k):
     m = 0
-    #for i,j in combinations(range(1,n+1), 2):
+
     for i in range(1, n + 1):
         for j in range(1, i):
             x = i & j

@@ -2,7 +2,7 @@
 # Input:  digits[] = "121"
 # Output: 3
 # // The possible decodings are "ABA", "AU", "LA"
-
+ 
 # Recursive implementation of numDecodings
 def numDecodings(s: str) -> int:
 	if len(s) == 0 or (len(s) == 1 and s[0] == '0'):

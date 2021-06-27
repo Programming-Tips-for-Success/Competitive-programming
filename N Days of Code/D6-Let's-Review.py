@@ -1,6 +1,6 @@
 '''
-Objective
-Today we're expanding our knowledge of Strings and combining it with what we've already learned about loops. Check out the Tutorial tab for learning materials and an instructional video!
+
+Today we're expanding our knowledge of Strings and combining it with what we've already learned about loops. 
 
 Task
 Given a string,
@@ -17,10 +17,6 @@ Input Format
 The first line contains an integer,
 (the number of test cases).
 Each line of the subsequent lines contain a String,
-
-.
-
-Constraints
 
 Output Format
 
@@ -65,10 +61,11 @@ The even indices are and , and the odd indices are and . We then print a single 
 
 words=list()
 output=list()
-if __name__ == '__main__':
-    n = int(input())
-    for i in range(n):
-        words.append(input())
+
+n = int(input())
+for i in range(n):
+    words.append(input())
+
 for w in words:
     odd,even='',''
     for i in range(len(w)):
@@ -77,5 +74,6 @@ for w in words:
         else:
             odd+=w[i]
     output.append((even,odd))
+
 for even,odd in output:
     print(even,odd)

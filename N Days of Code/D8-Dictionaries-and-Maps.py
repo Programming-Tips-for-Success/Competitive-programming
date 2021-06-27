@@ -1,10 +1,8 @@
 '''
 Objective
-Today, we're learning about Key-Value pair mappings using a Map or Dictionary data structure. Check out the Tutorial tab for learning materials and an instructional video!
-
+Today, we're learning about Key-Value pair mappings using a Map or Dictionary data structure. 
 Task
-Given
-names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for. For each queried, print the associated entry from your phone book on a new line in the form name=phoneNumber; if an entry for
+Given names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for. For each queried, print the associated entry from your phone book on a new line in the form name=phoneNumber; if an entry for
 
 is not found, print Not found instead.
 
@@ -24,8 +22,6 @@ lines of phone book entries, there are an unknown number of lines of queries. Ea
 to look up, and you must continue reading lines until there is no more input.
 
 Note: Names consist of lowercase English alphabetic letters and are first names only.
-
-Constraints
 
 Output Format
 
@@ -69,20 +65,12 @@ Edward is not one of the keys in our dictionary, so we print Not found.
 Query 2: harry
 Harry is one of the keys in our dictionary, so we print harry=12299933.
 '''
-
-import math
-import os
-import random
-import re
-import sys
-
-
 d,q=dict(),' '
-if __name__ == '__main__':
-    n = int(input())
-    for _ in range(n):
-        w=input().split()
-        d[w[0]]=w[-1]
+
+n = int(input())
+for _ in range(n):
+    w=input().split()
+    d[w[0]]=w[-1]
 try:
     while(q!=None):
         q=input()

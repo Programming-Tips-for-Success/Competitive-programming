@@ -54,14 +54,6 @@ valid pairs when
 
 
 '''
-
-import math
-import os
-import random
-import re
-import sys
-
-# Complete the divisibleSumPairs function below.
 def divisibleSumPairs(n, k, ar):
     div,su=0,0
     for i in range(n-1):
@@ -71,19 +63,15 @@ def divisibleSumPairs(n, k, ar):
                 div+=1
     return div
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    nk = input().split()
+nk = input().split()
 
-    n = int(nk[0])
+n = int(nk[0])
 
-    k = int(nk[1])
+k = int(nk[1])
 
-    ar = list(map(int, input().rstrip().split()))
+ar = list(map(int, input().rstrip().split()))
 
-    result = divisibleSumPairs(n, k, ar)
+result = divisibleSumPairs(n, k, ar)
 
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+print(str(result) + '\n')
