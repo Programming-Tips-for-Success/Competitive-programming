@@ -13,3 +13,11 @@ def isMonotonic(A):
 A = [3, 4, 5, 6]  
 
 print(isMonotonic(A)) 
+
+# All elements of list are true
+l = [4, 5, 1]
+print(all(l))
+  
+# All elements of list are false
+l = [0, 0, False]
+print(all(l))

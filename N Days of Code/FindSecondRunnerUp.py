@@ -31,11 +31,11 @@ Given list is
 . The maximum score is , second maximum is . Hence, we print as the runner-up score. 
 '''
 
-if __name__ == '__main__':
-    # n = int(input())
-    # arr = list(map(int, input().split()))
-    n = 5
-    arr = [2, 3, 6, 6, 5]
+
+# n = int(input())
+# arr = list(map(int, input().split()))
+n = 5
+arr = [2, 3, 6, 6, 5]
 
 s,f=0,max(arr)
 for i in range(arr.count(f)):

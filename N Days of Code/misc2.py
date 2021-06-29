@@ -5,7 +5,8 @@ def MainProg(f):
         if num not in m:          
             m[num] = f(num) 
         return m[num]  
-    return InnerProg     
+    return InnerProg   
+      
 @MainProg
 def Cal(num): 
     if num == 0: 

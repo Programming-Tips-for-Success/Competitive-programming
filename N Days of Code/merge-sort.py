@@ -1,15 +1,15 @@
 
-# class linkedListNode:
-#     def __init__(self, dataval=None):
-#         self.data = dataval
-#         self.next = None
-#         return
+class linkedListNode:
+    def __init__(self, dataval=None):
+        self.data = dataval
+        self.next = None
+        return
 
 class Merge():
 # Merge sort
 # It is one of the most famous divide-and-conquer sorting algorithms. This algorithm can be used to sort values in any traversable data structure (i.e., a linked list).
-    # def __init__(self):
-    #     self.headval = None
+    def __init__(self):
+        self.headval = None
 
         
     
@@ -58,37 +58,37 @@ class Merge():
         print()
 
 # merge sort using LL
-    # def sortedMerge(self, a, b): 
-    #     result = None
+    def sortedMerge(self, a, b): 
+        result = None
             
-    #     # Base cases 
-    #     if a == None: 
-    #         return b 
-    #     if b == None: 
-    #         return a 
+        # Base cases 
+        if a == None: 
+            return b 
+        if b == None: 
+            return a 
                 
-    #     # pick either a or b and recur.. 
-    #     if a.data <= b.data: 
-    #         result = a 
-    #         result.next = self.sortedMerge(a.next, b) 
-    #     else: 
-    #         result = b 
-    #         result.next = self.sortedMerge(a, b.next) 
-    #     return result  
+        # pick either a or b and recur.. 
+        if a.data <= b.data: 
+            result = a 
+            result.next = self.sortedMerge(a.next, b) 
+        else: 
+            result = b 
+            result.next = self.sortedMerge(a, b.next) 
+        return result  
 
-    # def getMiddle(self, headval): 
-    #     if (headval == None): 
-    #         return headval 
+    def getMiddle(self, headval): 
+        if (headval == None): 
+            return headval 
   
-    #     slow = headval 
-    #     fast = headval 
+        slow = headval 
+        fast = headval 
   
-    #     while (fast.next != None and 
-    #            fast.next.next != None): 
-    #         slow = slow.next
-    #         fast = fast.next.next
+        while (fast.next != None and 
+               fast.next.next != None): 
+            slow = slow.next
+            fast = fast.next.next
               
-    #     return slow
+        return slow
 
     # def mergeSort(self, h): 
             
@@ -125,13 +125,13 @@ a.mergeSort(array)
 print("Sorted array is: ")
 a.printList(array)
 
-# node1 = linkedListNode("3")
-# a.headval = node1
-# e2 = linkedListNode("1")
-# e3 = linkedListNode("2")
-# a.headval.next = e2
-# e2.next = e3
-# (a.mergeSort(a.headval))
-# a.listprint()
+node1 = linkedListNode("3")
+a.headval = node1
+e2 = linkedListNode("1")
+e3 = linkedListNode("2")
+a.headval.next = e2
+e2.next = e3
+(a.mergeSort(a.headval))
+a.listprint()
 
 

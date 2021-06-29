@@ -63,9 +63,9 @@ KK
 '''
 
 from itertools import combinations_with_replacement
-if __name__ == '__main__':
-    s = input()
-    word,r = s.split()
+
+s = input()
+word,r = s.split()
 
 for p in sorted(list(combinations_with_replacement(sorted(word),int(r)))):
     print(''.join(p))

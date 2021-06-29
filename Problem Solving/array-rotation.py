@@ -10,8 +10,6 @@
 
 # algo discussed
 # Reversal algorithm, Block swap algorithm, iterative implementation, cyclically rotate an array by one, when elements are distinct another , when duplicates are allowed
-import sys
-
 class ArrayRotation:    
     def leftRotateByJuggling(self, arr, d, n): 
         d = d % n 
@@ -582,17 +580,4 @@ arr3 = [8, 3, 1, 2]
 # reversed usage
 for i in reversed(range(1, 10, 2)): 
    print(i) 
-
-
-
-
-
-
-
-
-
-
-
-
-
 

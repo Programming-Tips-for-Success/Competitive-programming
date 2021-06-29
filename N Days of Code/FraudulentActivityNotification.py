@@ -57,13 +57,6 @@ There are  days of data required so the first day a notice might go out is day .
 
 # --------Solution-------
 
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
 from collections import deque
 def median(v, d):
     count = 0
@@ -99,19 +92,16 @@ def activityNotifications(expenditure, d):
         v[dq.popleft()] -= 1
     return count
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    nd = input().split()
+nd = input().split()
 
-    n = int(nd[0])
+n = int(nd[0])
 
-    d = int(nd[1])
+d = int(nd[1])
 
-    expenditure = list(map(int, input().rstrip().split()))
+expenditure = list(map(int, input().rstrip().split()))
 
-    result = activityNotifications(expenditure, d)
+result = activityNotifications(expenditure, d)
 
-    fptr.write(str(result) + '\n')
+print(str(result) + '\n')
 
-    fptr.close()

@@ -6,7 +6,7 @@
 # For each key, the corresponding value is a list containing the nodes that are connected by a direct arc from this node
 
 from collections import defaultdict
-import collections
+
  #This class represents a directed graph using adjacency list representation 
 class Graph: 
     visited = [] # List to keep track of visited nodes.

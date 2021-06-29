@@ -129,23 +129,23 @@ class search:
 a = search()
 arr = [2, 5, 9 , 0]
 
-# elem = linearSearch(arr, 6)
-# print(elem)
+elem = a.linearSearch(arr, 6)
+print(elem)
 # complexity O(n)
 
-# c = a.binarySearch2([3, 6, 8, 9, 10], 9)
-# print(c, 'num')
+c = a.binarySearch2([3, 6, 8, 9, 10], 9)
+print(c, 'num')
 
-# arr = ["Brian", "Joe", "Lois", "Meg", "Peter", "Stewie"]
-# b = a.binarySearch2(arr, "Stewie")
-# print(b, 'str')
+arr = ["Brian", "Joe", "Lois", "Meg", "Peter", "Stewie"]
+b = a.binarySearch2(arr, "Stewie")
+print(b, 'str')
 
-# print(a.pivotedBinarySearch(arr, 4, 5))
+print(a.pivotedBinarySearch(arr, 4, 5))
 
-# print(a.search(arr, 0, 4, 5))
+print(a.search(arr, 0, 4, 5))
 
 
-# print(a.countZeroes([1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0], 12))
+print(a.countZeroes([1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0], 12))
 
 
 

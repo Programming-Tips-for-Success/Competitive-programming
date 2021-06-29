@@ -36,7 +36,6 @@ YZ
 
 '''
 
-import textwrap
 
 def wrap(string, max_width):
     result=''
@@ -46,7 +45,7 @@ def wrap(string, max_width):
     result+=string
     return result
 
-if __name__ == '__main__':
-    string, max_width = input(), int(input())
-    result = wrap(string, max_width)
-    print(result)
+
+string, max_width = input(), int(input())
+result = wrap(string, max_width)
+print(result)

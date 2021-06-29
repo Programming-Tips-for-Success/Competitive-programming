@@ -36,18 +36,18 @@ You gain 1 unit of happiness for elements 3 and 1 in set A. You lose 1 unit for 
 Hence, the total happiness is 2 - 1 = 1.
 '''
 
-if __name__ == '__main__':
-  n,m=[int(i) for i in input().split(" ")]
 
-  n1=[int(i) for i in input().split(" ")]
+n,m=[int(i) for i in input().split(" ")]
 
-  a=set([int(i) for i in input().split(" ")])
+n1=[int(i) for i in input().split(" ")]
 
-  b=set([int(i) for i in input().split(" ")])
-  happiness=0
-  for j in n1:
-    if j in a:
-      happiness+=1
-    if j in b:
-      happiness-=1
+a=set([int(i) for i in input().split(" ")])
+
+b=set([int(i) for i in input().split(" ")])
+happiness=0
+for j in n1:
+  if j in a:
+    happiness+=1
+  if j in b:
+    happiness-=1
 print(happiness)

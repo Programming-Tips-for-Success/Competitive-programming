@@ -63,10 +63,10 @@ Hence, the answer is
 '''
 
 from itertools import combinations
-if __name__ == '__main__':
-    n = int(input())
-    l = input().split()
-    t = int(input())
+
+n = int(input())
+l = input().split()
+t = int(input())
 p=0
 com=list(combinations(l,t))
 for tup in com:

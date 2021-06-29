@@ -86,11 +86,7 @@ The different types of birds occur in the following frequencies:
 : Type : Type : Type : Type : Two types have a frequency of , and the lower of those is type .
 '''
 
-import math
-import os
-import random
-import re
-import sys
+
 
 # Complete the migratoryBirds function below.
 def migratoryBirds(arr):
@@ -102,15 +98,12 @@ def migratoryBirds(arr):
             n=i
     return n
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    arr_count = int(input().strip())
 
-    arr = list(map(int, input().rstrip().split()))
+arr_count = int(input().strip())
 
-    result = migratoryBirds(arr)
+arr = list(map(int, input().rstrip().split()))
 
-    fptr.write(str(result) + '\n')
+result = migratoryBirds(arr)
 
-    fptr.close()
+print(str(result) + '\n')

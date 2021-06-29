@@ -80,13 +80,6 @@ The second orange falls at position .
 Only one fruit (the second apple) falls within the region between and , so we print as our first line of output.
 Only the second orange falls within the region between and , so we print as our second line of output.
 '''
-
-import math
-import os
-import random
-import re
-import sys
-
 # Complete the countApplesAndOranges function below.
 def countApplesAndOranges(s, t, a, b, apples, oranges):
     ac=list(map(lambda x: x+a,apples))
@@ -101,27 +94,27 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     for each in c:
         print(each)
 
-if __name__ == '__main__':
-    st = input().split()
 
-    s = int(st[0])
+st = input().split()
 
-    t = int(st[1])
+s = int(st[0])
 
-    ab = input().split()
+t = int(st[1])
 
-    a = int(ab[0])
+ab = input().split()
 
-    b = int(ab[1])
+a = int(ab[0])
 
-    mn = input().split()
+b = int(ab[1])
 
-    m = int(mn[0])
+mn = input().split()
 
-    n = int(mn[1])
+m = int(mn[0])
 
-    apples = list(map(int, input().rstrip().split()))
+n = int(mn[1])
 
-    oranges = list(map(int, input().rstrip().split()))
+apples = list(map(int, input().rstrip().split()))
 
-    countApplesAndOranges(s, t, a, b, apples, oranges)
+oranges = list(map(int, input().rstrip().split()))
+
+countApplesAndOranges(s, t, a, b, apples, oranges)
