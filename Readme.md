@@ -1,5 +1,5 @@
 
-# Details
+# Top Algorithms And Data Structures You Need To Learn
 
 With each Algorithm add
 

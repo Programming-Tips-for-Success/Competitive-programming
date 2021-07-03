@@ -321,7 +321,7 @@ Given AB->return excel col number
 
 2. Find n^x in log N 
 
--> Binary exponensiation
+-> Binary exponentiation
 
 -----------------------------------------------------------------------
 3. Count trailing zeros in factorial of a number

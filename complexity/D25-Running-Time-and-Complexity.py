@@ -16,8 +16,7 @@
 # 1) Singly linked lists 2) Doubly linked lists 3) Circular doubly linked lists
 
 # Solution: Circular Doubly Linked Lists. This is because for singly and doubly linked lists, we need to traverse
-# the first list till the end and append the second list. But in case of circular doubly linked lists we don’t have to
-# traverse the lists
+# the first list till the end and append the second list. But in case of circular doubly linked lists we don’t have to traverse the lists
 
 # In a linked list with 𝑛 nodes, the time taken to insert an element after an element pointed by
 # some pointer is

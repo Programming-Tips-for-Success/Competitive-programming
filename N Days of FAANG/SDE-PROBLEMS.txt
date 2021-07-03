@@ -62,15 +62,35 @@ Day7: (2-pointer)
 
 
 Day8: (Greedy)
+Strategy to solve any problem.
+used to optimize the solution.
+Used in the scenarios where we need to find the min and max number. In this, We basically have to choose the best path and what are the best choices to achieve that.
+Example- 
+15 rupee problems-
+10 + 1*5 = 6 coins
+7+7+1 = 3 coins
+so this strategy is not for every problem.
+
+Applications-
 1. N meeting in one room 
-2. Activity Selection  
+2. Activity Selection problem
 3. Greedy algorithm to find minimum number of coins
 4. Fractional Knapsack Problem 
 5. Minimum number of platforms required for a railway 
 6. Job sequencing Problem 
+Huffman coding
+prim's minimum spanning tree
 
 
 Day9: (Backtracking)  (with Recursion also)
+solve one piece at a time.
+solves incrementally.
+Types-
+decision - is the solution feasible or not.
+optimization - the best solution.
+enumeration-  give all solutions to the problem.
+Examples-
+knight tour
 1. N queens Problem 
 2. Sudoko 
 3. M coloring Problem 
@@ -235,7 +255,7 @@ Interleave Strings, Wild card match,
 Fibonacci Series: Nth Stair, Keystroke Algorithm
 Note: Once tricks is understood then DP is comparatively very easy to solve
 
-Day26: (DP) 
+Day26: (DP) Dynamic Programming
       1. Maximum sum path in matrix, (count paths, and similar type do, also backtrack to find the maximum path) 
       2. Coin change 
       3. Subset Sum 
@@ -274,7 +294,10 @@ Segment Tree
 Segment Tree (with lazy propagation)
 Persistent Segment Tree
 
-Z algorithm
+String manipulation techniques.
+Z algorithm(Linear Time Pattern Searching Algorithm), 
+Suffix Tree
+Suffix The arrangement
 
 Sparse Table(RMQ)
 
@@ -310,8 +333,11 @@ countUniqueNumbersFromDuplicates
 increasing or decreasing order
 prefix and postfix forms
 
+String Matching And Parsing, 
 Find all anagrams string
 normal string matching
+
+Primality Test
 
 How to read/write from/to files
 How to read input from the console
