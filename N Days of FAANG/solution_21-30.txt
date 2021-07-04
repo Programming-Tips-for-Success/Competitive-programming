@@ -690,47 +690,9 @@ int main(){
 
 ---------------------------------------------------------------------------------------------
 Day 25:
-1. Max product subarray.
-- DP: arroach.
-- there is also negetive and 0 number so we need slide variation of kadenes.
-- 2 minus number product also become big pos numer.
-- so we make 2 array 1 is maintain max product with pos number.
-- second is min product with neg number. neg smaller is same as max pos after mult.
 
-
-int max_till[n], min_till[n];
-int ans=a[0];
-max_till[0]=min_till[0]=ans;
-
-for(int i=1; i<n; i++){
-	max_till[i]=max({a[i], max_till[i-1]*a[i], min_till[i-1]*a[i]});
-	min_till[i]=min({a[i], max_till[i-1]*a[i], min_till[i-1]*a[i]});
-	ans=max(ans, max_till[i]);
-}
-return ans;
-
--- we can also resuce space here.
 
 --------------------------------------------------
-2. Longest Increasing Subsequence
-
-// O(n^2) many variations of this problem...
- int lengthOfLIS(vector<int>& nums) {        
-        int n = nums.size();
-        if(n==0)
-            return 0;
-        vector<int> dp(n,1);
-        int ans=1;
-        
-        for(int i=1; i<n; i++){
-            for(int j=0; j<i; j++){
-                if( nums[i] > nums[j] && dp[j]+1 > dp[i] )
-                    dp[i]=dp[j]+1;                
-            }
-            ans=max(ans, dp[i]);
-        }
-        return ans;
-    }
 
 ---------------------------------------------------------
 3. Longest Common Subsequence

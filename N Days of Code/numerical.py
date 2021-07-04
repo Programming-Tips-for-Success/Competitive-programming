@@ -19,3 +19,6 @@
 # Sieve Of Eratosthenes, 
 
 # Euler's Totient Function
+
+# Modular Multiplicative Inverse
+# nCr % M

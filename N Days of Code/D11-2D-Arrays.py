@@ -1,3 +1,4 @@
+# How to declare and use 2D arrays
 '''
 column * row
 Objective

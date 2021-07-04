@@ -17,6 +17,25 @@
 # Collision resolution by chaining
 # Open Addressing: Linear/Quadratic Probing and Double Hashing
 
+# Hashing is an important Data Structure that is designed to use a special function called the Hash function which is used to map a given value with a particular key for faster access of elements.
+
+#  [11,12,13,14,15] it will be stored at positions {1,2,3,4,5} in the array or Hash table x%10
+
+# Collision Handling: 
+
+# Since a hash function gets us a small number for a big key, there is the possibility that two keys result in the same value. The situation where a newly inserted key maps to an already occupied slot in the hash table is called collision and must be handled using some collision handling technique.
+
+# Chaining: 
+
+# The idea is to make each cell of the hash table point to a linked list of records that have the same hash function value. Chaining is simple but requires additional memory outside the table.
+
+# Open Addressing: 
+
+# In open addressing, all elements are stored in the hash table itself. Each table entry contains either a record or NIL. When searching for an element, we one by one examine table slots until the desired element is found or it is clear that the element is not in the table.
+
+# You must have a good understanding of multiple Hashing techniques 
+# You should know how to analyze the probability of any Hash function and also Working knowledge of Hashing to solve geometry questions.
+
 def hash_key( key, m):
     return key % m
 

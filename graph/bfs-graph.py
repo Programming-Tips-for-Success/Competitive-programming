@@ -1,9 +1,15 @@
 #  basic queue-related problems- BFS
 # One common application of Breadth-first Search (BFS) is to find the shortest path from the root node to the target node.
+# It is a traversal Algo used on tree, graphs. It can be easily implemented using recursion, dictionary, list, queue etc. 
 
-# graphs are easily built out of lists and dictionaries.
-# keys are the nodes of the graph
-# For each key, the corresponding value is a list containing the nodes that are connected by a direct arc from this node
+# BFS Algorithm Applications-
+# To build index by search index
+# For GPS navigation
+# Path finding algorithms
+# In Ford-Fulkerson algorithm to find maximum flow in a network
+# Cycle detection in an undirected graph
+
+# Breadth First Traversal of a graph using queue
 
 from collections import defaultdict
 
@@ -49,16 +55,6 @@ class Graph:
          # If BFS is complete without visited d 
         return False
 
-    # Breadth First Traversal of a graph
-
-#     visited, queue
-
-# BFS Algorithm Applications-
-# To build index by search index
-# For GPS navigation
-# Path finding algorithms
-# In Ford-Fulkerson algorithm to find maximum flow in a network
-# Cycle detection in an undirected graph
     # First, move horizontally and visit all the nodes of the current layer  
     # Move to the next layer  
     # visited- List to keep track of visited nodes. 
@@ -72,17 +68,9 @@ class Graph:
                 if neighbour not in visited: 
                     visited.append(neighbour) 
                     self.queue.append(neighbour)
-    visited2 = set() # Set to keep track of visited nodes.
-
-    def dfs(self, visited, graph, node):
-        if node not in visited:
-            print (node)
-            visited.add(node)
-            for neighbour in graph[node]:
-                self.dfs(visited, graph, neighbour)
-
+  
 # Create a graph
-g = Graph(4) 
+g = Graph(4) # 4 vertices
 g.addEdge(0, 1) 
 g.addEdge(0, 2) 
 g.addEdge(1, 2) 
@@ -90,12 +78,12 @@ g.addEdge(2, 0)
 g.addEdge(2, 3) 
 g.addEdge(3, 3) 
   
-# u =3; v = 0
+u =0; v = 3
   
-# if g.isReachable(u, v): 
-#     print("There is a path from %d to %d" % (u,v)) 
-# else : 
-#     print("There is no path from %d to %d" % (u,v)) 
+if g.isReachable(u, v): 
+    print("There is a path from %d to %d" % (u,v)) 
+else : 
+    print("There is no path from %d to %d" % (u,v)) 
   
 graph = { 
   'A' : ['B','C'], 
@@ -107,10 +95,11 @@ graph = {
 }
 
 # To avoid processing a node more than once,
-# g.bfs(g.visited, graph, 'A') 
+# g.bfs(g.visited, graph, 'A')  # A B C D E F
+g.bfs(g.visited, graph, 'C') # C F 
 
 
 
-# Depth First Traversal of a graph
-g.dfs(g.visited2, graph, 'A')
+
+
 

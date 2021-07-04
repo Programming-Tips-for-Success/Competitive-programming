@@ -221,8 +221,6 @@ Day22: (Mixed Questions)
 
 Day23: (Graph) 
       1. Clone a graph (Not that easy as it looks) 
-      2. DFS - Depth-first Search
-      3. BFS - Breadth-first search
       4. Detect A cycle in Undirected Graph/Directed Graph 
       5. Topo Sort 
       6. Number of islands (Do in Grid and Graph both) 
@@ -239,8 +237,6 @@ Day24: (Graph)
 
 
 Day25: (Dynamic Programming) 
-      1. Max Product Subarray 
-      2. Longest Increasing Subsequence
       3. Longest Common Subsequence 
       4. 0-1 Knapsack 
       5. Edit Distance
@@ -249,7 +245,7 @@ Day25: (Dynamic Programming)
 
 How to identify DP problems
 Single Strings Problems: Longest Palindrome Subsequences/String,
-Word Break, LIS(Longest Increasing Subsequence),Subset problems
+Word Break,Subset problems
 Two Strings Problems: Longest Common Subsequences/Strings, Edit Distance
 Interleave Strings, Wild card match,
 Fibonacci Series: Nth Stair, Keystroke Algorithm
@@ -287,26 +283,13 @@ Day30:
  find a shortest path, another one was a ad-HOC problem.
  What are the 10 algorithms one must know in order to solve most algorithm problems?
 
-Tries (seperte topics)
-Dijkstra's Algorithm
-
-Segment Tree
-Segment Tree (with lazy propagation)
-Persistent Segment Tree
 
 String manipulation techniques.
-Z algorithm(Linear Time Pattern Searching Algorithm), 
-Suffix Tree
-Suffix The arrangement
+String Matching And Parsing, 
+Find all anagrams string
+normal string matching
 
-Sparse Table(RMQ)
-
-Heap / Priority Queue / Heapsort
-Using a Heap or Priority Queue to keep track of max/min elements
-
-Modular Multiplicative Inverse
-
-nCr % M
+Z algorithm(Linear Time Pattern Searching Algorithm)
 
 Square root decomposition
 
@@ -319,7 +302,7 @@ Memoization (with Recursion)
 You won’t be asked these directly. Each problem will be disguised as a situation. Your have to figure out how to apply one/more of these to solve the problem.
 
 
-In data structures, a stack initially holds only one element: {2}. What will be the size of the stack after performing the following operations for ten times:
+
 
 write the function that converts string into integers.
 
@@ -328,42 +311,22 @@ write the function that converts string into integers.
 
 maximum time of an algorithm  - big O
 
-countUniqueNumbersFromDuplicates
-
-increasing or decreasing order
 prefix and postfix forms
 
-String Matching And Parsing, 
-Find all anagrams string
-normal string matching
+
 
 Primality Test
 
 How to read/write from/to files
 How to read input from the console
 How to split strings
-How to declare and use 2D arrays
+
 In C/C++, how to handle null-terminated strings
 Arrays: remove even integers, merge two sorted arrays, find second max value in array
-Stacks/Queues: sort values in stack, implement two stacks using one array
-Linked List: find length and middle, search in singly linked list, reverse linked list
-Trees, Tries: total number of words in Trie, find all words stored in Trie
-Heaps: find k smallest or largest elements in list
-Graphs algorithms- things to cover
-BFS and DFS
-PRIM'S ALGORITHM
-DIJKSTRA'S SHORTEST PATH ALGO - Fast Dijkstra´s algorithm 
-BELLMANFORD SHORTEST PATH ALGO
-KOSARAJU'S ALGORITHM
-TARJAN’S ALGORITHM
-Topological Sorting, Package Dependency ,Phone Dictionary Algorithms
-Trie Implementation and Applications based on it
-Longest Prefix , Matrix Related Assignments
-Note: Prefix Tree is not much important for Interview perspective 
-Strongly connected components 
-Eulerian path 
 
-Save all leaf nodes of a Binary tree in a Doubly Linked List by using Right node as Next node and Left Node as Previous Node.
+
+
+
 Given an array,find the maximum j – i such that arr[j] > arr[i]
 
 Remove Alternate Duplicate characters from a char array you have to do it in Place.Like keeping only the odd occurrences of each character.
@@ -373,18 +336,14 @@ Allowed Time Complexity was O(n)
 and Space Complexity was O(1) 
 
 In a file there are 1 million words . Find 10 most frequent words in that file.
-Find all nodes at k-distance from a given node in a binary tree
-Clone a linked list with next and random pointer
-Serialise and Deserialise a linked list with next and random pointer.
-Construct a binary tree from given inorder and preorder traversals.
-Return a tree such that each internal node stores the sum of all its child nodes. Each leaf node stores zero.
-How will you implement a linked list with 1 million nodes? How will you access 999999 th node? Give some optimal design strategy and implementation.
-Reversal of Linked List in groups of K.
+
+
+
+
 Given a positive integer N, count all possible distinct binary strings of length N such that there are no consecutive 1’s.
-Check whether a given binary tree is balanced or not. Definition was no two leaves should have height differences of greater than one.
+
 Remove duplicates from string in place in O(n).
-Connect nodes on the same level in a binary tree.
-Find the sum of data of all leaves of a binary tree on the same level and then multiply sums obtained of all levels.
+
 Given a matrix of characters and a word.
 you have to count the number of occurrences of that word in that matrix. you can move to any of the eight valid directions from current position.
 
@@ -392,20 +351,17 @@ You are given a string as input which represents a path. You have to normalize t
 e.g. input : "\a\b\c\..\..\file.txt" 
 output: "\a\file.txt" 
 
-Least common ancestor of two nodes in a binary tree
+
 Given two sorted arrays (with repetitive elements) find the kth minimum number from both arrays.
-Given the root to a binary tree, a value n and k.Find the sum of nodes at distance k from node with value n
+
 Find an element in a rotated array
-Given two linked lists both represent a number. Create a linked list that contains its sum.
-Given a binary search tree , print the path which has the sum equal to k and has minimum hops. i.e if there are multiple paths with the sum equal to k then print the path with minimum number of nodes.
 
 A MxN matrix containing integers (positive, negative and zeros). For every position containing 0, mark the corresponding row and column as 0.
 Rotate MxN matrix by 90 degrees.
 
 Find the nth number that contains the digit k or is divisible by k. (2 <= k <= 9)
-Write a program to connect the next left node in a binary tree. Also the first node of each level should be pointing to the last node of the next level? (Without using Queue)
-Convert a binary tree to its sum tree(each node is the sum of its children)
-Given a directed graph. Construct another graph from a given graph such that if the path exists from vertices A to vertices B and from B to C, then the path from A to C and from C to A also should exist.
+
+
 Implement a hashmap on your own. Write a good hashing function for string.
 Given an array, arrange the elements such that the number formed by concatenating the elements is highest.
 E.g.: input = [9, 93, 24, 6], the output should be: [9,93,6,24]. This is because if you concatenate all the numbers, 993624 is the highest number that can be formed.
@@ -413,9 +369,8 @@ Given a string, find the longest substring which is palindrome.
 Given that integers are read from a data stream. Find the median of elements read so far in an efficient way. For simplicity assume there are no duplicates.
 Write an efficient program for printing k largest elements in an array. Elements in the array can be in any order.
 Given an unsorted array and a number K. Find 2 numbers such that the sum is K.
-Given a n-ary tree. zigzag level order traversal.
+
 Given string s and string t find whether all permutation of t is present as substring in s.
-Design a stack which holds an integer value such that getMinimum() function should return the minimum element in the stack. Implement popMin() function which would pop the minimum element from the original stack.
 
 Given a set of intervals like 5-10, 15-20, 25-40, 30-45, 50-100. Find the ith smallest number in these intervals. Assume there are no duplicate numbers.
 e.g:  1st smallest number = 5	   
@@ -426,29 +381,10 @@ Given a string example : shoppingwithflipkartiseasy, Now we are given this strin
 
 Given a series 2,3,4,5,6,8,9,10,……, here in this series all the numbers are present which have factors only and only either 2,3 or 5. Need to write a node to generate the nth number for the series . With best approach and complexity
 
-Given a tree with edge weights, find any path in the tree with maximum sum of edges.
+
 Merge k sorted arrays.
 Given a maze, a start point and end point find the shortest path to reach the end point from the starting point.
 Given a sentence and a set of characters. Find the minimum window within which the set of characters can be found in the sentence in any order.
 You are given a string of 0’s and 1’s you have to find the number of substrings in the string which starts and ends with a 1.
 eg : input : 0010110010 
 output : 6 
-
-
-https://www.geeksforgeeks.org/amazon-sde-1-interview-experience-wow-2020/
-https://www.geeksforgeeks.org/minimum-time-to-burn-a-tree-starting-from-a-leaf-node/
-
-https://practice.geeksforgeeks.org/contest/interview-series-google/problems/
-
-https://practice.geeksforgeeks.org/problems/shortest-path-between-cities/1#
-https://practice.geeksforgeeks.org/problems/963b3db8c7ac09d564c9d354c07af13c624ba94d/1
-
-https://practice.geeksforgeeks.org/problems/neemans-shoes/1/#
-
-Suffix array 
-Binary Indexed Tree 
- Union-find set 
- KD-tree 
- Splay tree 
- Lazy segment tree 
- Lowest common ancestor .

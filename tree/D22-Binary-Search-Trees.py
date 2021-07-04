@@ -3,6 +3,18 @@
 # AVL tree
 # red black tree
 
+
+# Binary Search Tree: 
+# It is a tree that allows fast search, insert, delete on sorted data. It also allows finding the closest item. Every node has a maximum of two children.
+# A node’s left child must have a value less than its parent’s value and the node’s right child must have a value greater than its parent value. A BST is a great choice for storing data that may need to be sorted. 
+# properties: 
+# The left subtree of a node contains only nodes with keys lesser than the node’s key. 
+# The right subtree of a node contains only nodes with keys greater than the node’s key. 
+# The left and right subtree each must also be a binary search tree. 
+# There must be no duplicate nodes. 
+# The above properties of the Binary Search Tree provide ordering among keys so that the operations like search, minimum and maximum can be done fast. 
+# If there is no order, then we may have to compare every key to search a give.
+
 '''
 Objective
 Today, we're working with Binary Search Trees (BSTs). 
