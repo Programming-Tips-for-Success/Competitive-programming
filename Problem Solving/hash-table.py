@@ -36,6 +36,11 @@
 # You must have a good understanding of multiple Hashing techniques 
 # You should know how to analyze the probability of any Hash function and also Working knowledge of Hashing to solve geometry questions.
 
+# hashing Applications:
+
+# In routers, to store IP address -> Path pair for routing mechanisms
+# To perform the check if a value already exists in a list. Linear search would be expensive. We can also use Set data structure for this operation.
+
 def hash_key( key, m):
     return key % m
 

@@ -5,13 +5,11 @@
 # Find mid element
 # If mid value less than searched element then increase lower index
 # If mid value greater than searched element then decrease upper index
+
+# Application-
+# When you search for a name of song in a sorted list of songs, it performs binary search and string-matching to quickly return the results.
+# Used to debug in git through git bisect
 class search:
-    # It is rarely used here we iterate each element.
-    def linearSearch(self, arr, n):
-        for i in range(0, len(arr)):
-            if(arr[i]== n):
-                return i
-        return -1
 
     def binarySearch2(self, arr, n):
         lb = 0
@@ -127,11 +125,7 @@ class search:
 
 
 a = search()
-arr = [2, 5, 9 , 0]
 
-elem = a.linearSearch(arr, 6)
-print(elem)
-# complexity O(n)
 
 c = a.binarySearch2([3, 6, 8, 9, 10], 9)
 print(c, 'num')
@@ -147,13 +141,5 @@ print(a.search(arr, 0, 4, 5))
 
 print(a.countZeroes([1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0], 12))
 
+# time  complexity O(log2N)
 
-
-
-
-
-
-        
- 
-
-    

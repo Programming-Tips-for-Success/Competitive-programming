@@ -2,7 +2,7 @@
 
 
 # KMP algo
-# Knuth-Morris-Pratt String Matching (KMP)
+# Knuth-Morris-Pratt (KMP) for String Matching
 # Knuth-Morris-Pratt algorithm  used  for finding sub string.
 # in this we reduce the iteration on pattern.
 # complexity  O(n+m)
@@ -73,3 +73,7 @@ if kmp_search(substring, text):
     print("Substring found!")
 else:
     print("Could not find substring.")
+
+
+# application
+# when we Ctrl+F a keyword in a document, we perform pattern matching in the whole document.

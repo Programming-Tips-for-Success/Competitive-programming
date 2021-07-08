@@ -285,7 +285,7 @@ Day30:
 
 
 String manipulation techniques.
-String Matching And Parsing, 
+
 Find all anagrams string
 normal string matching
 
@@ -315,7 +315,7 @@ prefix and postfix forms
 
 
 
-Primality Test
+
 
 How to read/write from/to files
 How to read input from the console

@@ -8,7 +8,7 @@
 
 # Modular Arithmetic, 
 
-# Fermat's Theorem, 
+
 
 # CRT(The Chinese Remainder Theorem ), 
 
@@ -16,7 +16,7 @@
 
 # Logarithmic Exponentiation, 
 
-# Sieve Of Eratosthenes, 
+
 
 # Euler's Totient Function
 

@@ -1,5 +1,5 @@
 # cycle sort
-# heap sort
+# heap sort*
 
 # Heap / Priority Queue / Heapsort
 # Using a Heap or Priority Queue to keep track of max/min elements

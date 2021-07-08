@@ -1,3 +1,12 @@
+# Primality Testing Algorithms
+# Sieve Of Eratosthenes, 
+# Fermat primality test and Miller–Rabin primality test (both are nondeterministic)
+# Both of these are compositeness tests. If a number is proved to be composite, then it sure isn’t a prime number. Miller-Rabin is a more sophisticated one than Fermat’s. Infact, Miller-Rabin also has a deterministic variant, but then its a game of trade between time complexity and accuracy of the algorithm.
+
+# Application:
+
+# The single most important use of prime numbers is in Cryptography. More precisely, they are used in encryption and decryption in RSA algorithm which was the very first implementation of Public Key Cryptosystems
+# Another use is in Hash functions used in Hash Tables
 '''
 Objective
 Today we're learning about running time! Check out the Tutorial tab for learning materials and an instructional video!
@@ -65,10 +74,12 @@ def isPrime(n):
    for i in range(2, n): 
         if(n%i==0): 
             return False 
-        return True 
+        return True  
 
 # The sieve of Eratosthenes is one of the most efficient ways to find all primes smaller than n.
+# Sieve of Eratosthenes (deterministic)
 
+# If we have certain limit on the range of numbers, say determine all primes within range 100 to 1000 then Sieve is a way to go. The length of range is a crucial factor, because we have to allocate certain amount of memory according to rang
 def SieveOfEratosthenes(n): 
     prime = [True for i in range(n + 1)] 
     p = 2

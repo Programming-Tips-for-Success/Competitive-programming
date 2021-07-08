@@ -16,3 +16,6 @@
 # Matrix Chain Multiplication
 
 # Top-Down vs Bottom-Up Dynamic Programming.
+
+# Dynamic Programming application
+# Duckworth-Lewis method in cricket.
