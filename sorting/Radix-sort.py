@@ -2,6 +2,7 @@
 # also known as counting sort
 # Using counting sort to sort the elements in the basis of significant places
 
+# When you are sorting integers with a limited range.
 def countingSort(array, place):
     size = len(array)
     output = [0] * size

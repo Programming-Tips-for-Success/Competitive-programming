@@ -125,6 +125,8 @@ print(data)
 # Mergesort is more efficient & faster than Quicksort in case of a large array and Quicksort is more efficient & faster than Mergesort in case of a small array but memory requirement is more in mergesort as compared to quicksort.
 
 
+# mergesort is stable while Quicksort is not-stable. This means equal elements retain their spot before and after sorting.
+
 # Both Merge sort and Insertion sort can be used for linked lists.  
 # The slow random-access performance of a linked list makes other algorithms (such as quicksort)  perform poorly, and others (such as heapsort) completely impossible.  
 

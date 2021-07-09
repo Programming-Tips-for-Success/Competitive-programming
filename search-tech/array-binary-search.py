@@ -9,6 +9,8 @@
 # Application-
 # When you search for a name of song in a sorted list of songs, it performs binary search and string-matching to quickly return the results.
 # Used to debug in git through git bisect
+
+# find elemnet in sorted and unsorted list
 class search:
 
     def binarySearch2(self, arr, n):
