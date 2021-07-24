@@ -12,6 +12,21 @@
 # Output: Length of LIS = 4
 # The longest increasing subsequence is {3, 7, 40, 80}
 
+#algo
+# arr = [10, 22, 9, 33, 21, 50, 41, 60]
+# find length
+# craete array with value 1  suppose we have arary weith 8 elements then we have array with 8 1's in array
+# start with first index
+# nested loop
+# i=1, j=0
+# first iteratin 0, 1 22>10 and 1 <2 1st index =2
+# second iteration 
+# i=2, j=0, 1
+# 9>10, 9>22  1<1
+# thirsd iterartion 
+# i=3, j= 0,1 , 2
+# 33>10, 33>22, 33>9
+# lis =1 2 3
 # // O(n^2) many variations of this problem...
 #  int lengthOfLIS(vector<int>& nums) {        
 #         int n = nums.size();

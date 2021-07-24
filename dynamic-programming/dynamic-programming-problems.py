@@ -3,19 +3,25 @@
 # Optimization over recursion.
 # Reduce the complexity.
 
-# Examples-
+# overlapping subproblem-
+#  Dynamic Programming is not useful when there are no common (overlapping) subproblems because there is no point storing the solutions if they are not needed again. 
+# example binary search - DP solution not possibel
 
-# overlapping subproblem
+# Top-Down vs Bottom-Up Dynamic Programming.
+#  two different ways to store the values so that these values can be reused:
+# a) Memoization (Top Down)
+# b) Tabulation (Bottom Up)
 
 # optimal substructure
 
+# Examples-
 # Fibonacci problem 
 
 # Rod Cutting Problem, 
 # Knapsack Problem, 
 # Matrix Chain Multiplication
 
-# Top-Down vs Bottom-Up Dynamic Programming.
+
 
 # Dynamic Programming application
 # Duckworth-Lewis method in cricket.

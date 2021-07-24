@@ -20,6 +20,13 @@
 # - second is min product with neg number. neg smaller is same as max pos after mult.
 
 # algo
+# store first value in 3 properties
+# if value less than 0 do swapping
+# find max bwtween curret vale and produc with next value updare maxval
+# find min etween current value and produc with next value updateminvalue
+# find maxProduct bewteen maxprodcra and maxvale
+# return that value
+
 # int max_till[n], min_till[n];
 # int ans=a[0];
 # max_till[0]=min_till[0]=ans;
