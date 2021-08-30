@@ -8,7 +8,7 @@ With each Algorithm add
 problem statement
 input 
 output 
-Algo 
+Algorithm 
 code 
 Time and space complexity 
 General cases, base cases, error cases
@@ -21,15 +21,10 @@ Can you solve this challenge in 4 lines of code or less?
 firstly think and write logic
 There is no point in seeing the solution directly
 
-node js-solutions/array-comparison.js contact-search.js
-node regex/test.js
 
-https://leetcode.com/explore/challenge/card/february-leetcoding-challenge-2021/584/week-1-february-1st-february-7th/3625/
-
-https://leetcode.com/explore/challenge/card/july-leetcoding-challenge-2021/608/week-1-july-1st-july-7th/3800/
-
-https://leetcode.com/discuss/general-discussion/1041234/Become-LeetCode
-
-TO RUN ts code 
+TO RUN ts code- 
 tsc linked-list/ll.ts
+To run Js code-
 node linked-list/ll.js
+
+https://leetcode.com/discuss/study-guide/1398371/new-learning-resource-for-premium-users-detailed-explanation-of-graph

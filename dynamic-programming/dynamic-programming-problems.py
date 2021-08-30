@@ -5,7 +5,7 @@
 
 # overlapping subproblem-
 #  Dynamic Programming is not useful when there are no common (overlapping) subproblems because there is no point storing the solutions if they are not needed again. 
-# example binary search - DP solution not possibel
+# example binary search - DP solution not possible
 
 # Top-Down vs Bottom-Up Dynamic Programming.
 #  two different ways to store the values so that these values can be reused:

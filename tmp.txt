@@ -1,4 +1,0 @@
-This is line #1
-This is e #2
-This is line #3
-Line # 4

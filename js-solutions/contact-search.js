@@ -23,3 +23,6 @@ console.log(solution( ["pim", "pom"], ["999999999", "777888999"], "88999")) // p
 
 console.log(['a','c', 'b', 'A', 1].sort())
 console.log(['ab','ca', 'ba','ac', 'A', 1].sort())
+
+
+// node js-solutions/contact-search.js

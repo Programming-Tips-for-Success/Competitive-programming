@@ -34,5 +34,9 @@ function findTopRepeated(sentence) {
     return top;
     
     }
-    let character  = findTopRepeated('hello world');
-    console.log(character)
+    // let character  = findTopRepeated('hello world');
+    // console.log(character)
+
+    console.log(Array.from(Array(6).keys()));
+    console.log( ...Array(8).keys())
+    // node js-solutions/count-char.js    

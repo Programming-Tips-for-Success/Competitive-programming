@@ -13,8 +13,8 @@
 # Output:  80  
 # Explanation: The subarray [-2, -40] has the maximum product. 
 
-# - DP: arroach.
-# - there is also negetive and 0 number so we need slide variation of kadenes.
+# - DP: approach.
+# - there is also negative and 0 number so we need slide variation of kadenes.
 # - 2 minus number product also become big pos numer.
 # - so we make 2 array 1 is maintain max product with pos number.
 # - second is min product with neg number. neg smaller is same as max pos after mult.

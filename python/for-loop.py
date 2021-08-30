@@ -40,3 +40,7 @@ questions = ['name', 'quest', 'favorite color']
 answers = ['lancelot', 'the holy grail', 'blue'] 
 for q, a in zip(questions, answers): 
    print('What is your {0}?  It is {1}.'.format(q, a))
+
+a = ['Hacker', 'Earth','1','2', 'Python', 'Language', '10']
+a_to_dictionary = dict(zip(a[0::2], a[1::2]))
+print(a_to_dictionary)

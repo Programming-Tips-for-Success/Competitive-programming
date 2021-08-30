@@ -23,3 +23,18 @@
 #  (A) O(1) (B) O(𝑙𝑜𝑔𝑛) (C) O(𝑛) (D) O(𝑛1𝑜𝑔𝑛)
 # Solution: A.
 
+
+# In Data Structures, which of the following statements about the worst-case time complexity in performing various
+# operations on the queue data structure are correct
+
+# 1. If you are required to access an element in the queue of n elements, then the worst-case time complexity
+# is 0(1).
+
+# 2. If you are required to search an element in the queue of n elements, then the worst-case time complexity
+# is O(n).
+
+# 3. If you are required to insert an element in the queue of n elements, then the worst-case time complexity is
+# 0(1).
+
+# 4. If you are required to delete an element in the queue of n elements, then the worst-case time complexity
+# is 0(1).

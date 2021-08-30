@@ -46,3 +46,5 @@ function verifyAllEqual(list1, list2) {
 
 console.log(verifyAllEqual([1, 2, 3], [3, 2, 1]));
 
+
+// node js-solutions/array-comparison.js
