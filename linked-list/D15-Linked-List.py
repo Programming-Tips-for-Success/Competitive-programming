@@ -72,24 +72,18 @@ class Node:
     def __init__(self,data):
         self.data = data
         self.next = None 
-        # self.dataval = dataval
-        # self.nextval = None
-        # return
+
+length = 0   # used on push method
 class Solution: 
+    
     def __init__(self):
         self.headval = None
 
     def display(self,head):
         current = head
-        while current is not None:
+        while current is not None:   #  while (node != None) 
             print(current.data,end=' ')
             current = current.next
-
-    def printList2(self, node): 
-  
-        while (node != None) : 
-            print( node.data, end=" ") 
-            node = node.next  
 
     def insert(self,head,data):
         new = Node(data)           
@@ -103,6 +97,11 @@ class Solution:
                 start=start.next
             start.next=new
         return head
+
+    def pushData(self, newdata):
+        new_Node = Node(newdata)
+        new_Node.next = self.headval
+        self.headval = new_Node
 
     def removeDuplicates(self,head):
         current = head
@@ -240,10 +239,7 @@ class Solution:
                  printvalue = printvalue.next
                  i =  i + 1
 
-    def pushData(self, newdata):
-        new_Node = Node(newdata)
-        new_Node.next = self.headval
-        self.headval = new_Node
+
         
 
     # move last item to first place    
@@ -333,17 +329,17 @@ class Solution:
 
 
 list1= Solution()
-T=int(input())
-head=None
+# T=int(input())
+# head=None
 
-for i in range(T):
-    data=int(input())
+# for i in range(T):
+#     data=int(input())
 
-    head=list1.insert(head,data)
+#     head=list1.insert(head,data)
 
-head=list1.removeDuplicates(head) 
+# head=list1.removeDuplicates(head) 
 
-list1.display(head); 
+# list1.display(head); 
 
 
 node1 = Node("Mon")
@@ -352,20 +348,21 @@ e2 = Node("Tue")
 e3 = Node("Wed")
 list1.headval.next = e2
 e2.next = e3
-list1.pushData(10)
-list1.pushData(56)
-list1.pushData(89)
-list1.AtBegining("Sun")
-list1.Inbetween(list1.headval.next,"Fri")
-list1.AtEnd("Thu")
-list1.RemoveNode("Tue")
-list1.removeDuplicates()
-print("track length: %i" % list1.list_length())
 
-list1.printParticularItem(4)
-list1.moveItems()
+# list1.pushData(10)
+# list1.pushData(56)
+# list1.pushData(89)
+# list1.AtBegining("Sun")
+# list1.Inbetween(list1.headval.next,"Fri")
+# list1.AtEnd("Thu")
+# list1.RemoveNode("Tue")
+# list1.removeDuplicates()
+# print("track length: %i" % list1.list_length())
+
+# list1.printParticularItem(4)
+# list1.moveItems()
   
-length = 0 
+
 start = None
 start = list1.push(start, 5) 
 start = list1.push(start, 4) 
@@ -374,8 +371,8 @@ start = list1.push(start, 2)
 start = list1.push(start, 1) 
 start = list1.push(start, 0) 
 
-list1.moveToFront(start, None, 3) 
-list1.printList2(start)
+# list1.moveToFront(start, None, 3) 
+# list1.printList2(start)
 
 
 

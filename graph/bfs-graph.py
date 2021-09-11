@@ -1,4 +1,4 @@
-#  basic queue-related problems- BFS
+
 # One common application of Breadth-first Search (BFS) is to find the shortest path from the root node to the target node.
 # It is a traversal Algo used on tree, graphs. It can be easily implemented using recursion, dictionary, list, queue etc. 
 

@@ -40,6 +40,7 @@ def getEndIndex(scanned, letter, startIndex):
 def solution(S):
     scanned = {}
     isBalanced = {}
+
     for index, letter in enumerate(S):
         invLetter = doInvert(letter)
         if(isBalanced.__contains__(invLetter)):
@@ -90,3 +91,5 @@ def solution(S):
         return -1
     else:
         return len(minBalancedString)
+
+print(solution('azABaabza'))

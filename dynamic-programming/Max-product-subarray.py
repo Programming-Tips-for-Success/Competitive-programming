@@ -2,13 +2,13 @@
 # Input: arr[] = [9, -6, 10, 3] 
 # Output: 30 
 # Explanation: The subarray [10, 3] has the maximum product.
-# Example 2
 
+# Example 2
 # Input: arr[] = [6, -3, -10, 0, 2] 
 # Output: 180  
 # Explanation: The subarray [6, -3, -10] has the maximum Product.
-# Example 3
 
+# Example 3
 # Input: arr[] = [-2, -3, 0, -2, -40] 
 # Output:  80  
 # Explanation: The subarray [-2, -40] has the maximum product. 

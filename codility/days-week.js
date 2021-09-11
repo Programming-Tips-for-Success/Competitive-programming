@@ -8,6 +8,7 @@
 // Given S = "Sat" and K = 23, the function should return "Mon".
 
 function solution(s, k) {
-    // write your code in JavaScript (Node.js 8.9.4)
-     var weekDays = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]; var index=weekDays.findIndex(function(weekDay){return weekDay==s;}); return weekDays[(index+k)%7]; 
-     } 
+    var weekDays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]; 
+    var index = weekDays.findIndex(function (weekDay) { return weekDay == s; }); 
+    return weekDays[(index + k) % 7];
+}
