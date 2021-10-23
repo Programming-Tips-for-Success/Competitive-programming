@@ -24,6 +24,10 @@ print(summation)   # 5
 for i, v in enumerate(['tic', 'tac', 'toe']): 
    print(i, v) 
 
+# reversed usage
+for i in reversed(range(1, 10, 2)): 
+   print(i) 
+   
 collection = [('apple', 'red'), ('banana', 'yello'), ('kiwi',
 'green')]
 for name, color in collection:

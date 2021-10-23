@@ -37,6 +37,7 @@ function findTopRepeated(sentence) {
     // let character  = findTopRepeated('hello world');
     // console.log(character)
 
-    console.log(Array.from(Array(6).keys()));
-    console.log( ...Array(8).keys())
+    console.log(Array.from(Array(6).keys())); // [ 0, 1, 2, 3, 4, 5 ]
+    console.log( ...Array(8).keys()) // 0 1 2 3 4 5 6 7
+    
     // node js-solutions/count-char.js    

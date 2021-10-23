@@ -5,6 +5,10 @@ let stack = [];
   stack.push(1);          
   stack.push(2);          
   let last = stack.pop(); // [1]
-  console.log(last);      // 2
+  console.log(last, stack);      // 2 [ 1 ]
+
+
   
 // Point to remember to unshift() and shift() work in specifically the same way as to push() and pop(), respectively, except that they work on the beginning of the array, not the end.
+
+// node stacks/stack-test.js

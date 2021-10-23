@@ -49,15 +49,5 @@ def factWithoutRecursion(n):
 a = factWithoutRecursion(5) 
 print(a) 
 
- # find power of any number 
-def power(x, y):    
-    if y == 0:  
-        return 1 
-    if y % 2 == 0:  
-        return power(x, y // 2) * power(x, y // 2)  
-           
-    return x * power(x, y // 2) * power(x, y // 2)  
-  
-a = power(2, 5) 
-print(a) 
+
  

@@ -1,0 +1,39 @@
+What are the major operations that one can perform in DSA?
+
+2. Give a brief description of Postfix, prefix, and Infix notations.
+
+3. Explain the use of dynamic Data Structures
+
+4. Explain trees in DSA.
+
+5. Explain the different types of data structures
+
+6. Define Array.
+
+7. Differentiate between Graph and Tree in the data structure.
+
+8. What is the FIFO and LIFO principle?
+
+9. Explain dynamic arrays.
+
+10. Explain the difference between queue and stack.
+
+11. Explain the Hash table and its complexity.
+
+12. What is the AVL tree?
+
+13. Define stack overflow condition.
+
+14. Explain the balanced tree.
+
+15. For stacks, what operations can you perform?
+
+16. Explain the complexities of binary and linear search.
+
+17. Working of Kruskal's algorithm.
+
+18. Explain the Tower of Hanoi Problem.
+
+19. Explain DFS and BFS.
+
+20. Has the worst case of QuickSort occurred? Explain.

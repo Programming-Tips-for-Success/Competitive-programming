@@ -31,4 +31,4 @@ for i in abc:
 
 print(data)
 
-# count frquency of characters
+# count frequency of characters
