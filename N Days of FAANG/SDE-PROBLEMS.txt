@@ -283,39 +283,20 @@ Day30:
  find a shortest path, another one was a ad-HOC problem.
  What are the 10 algorithms one must know in order to solve most algorithm problems?
 
-
 String manipulation techniques.
-
 Find all anagrams string
 normal string matching
-
 Z algorithm(Linear Time Pattern Searching Algorithm)
-
 Square root decomposition
-
-
-
 which kind of data structure will you use in a particular scenario and why
-
 Memoization (with Recursion)
-
 You won’t be asked these directly. Each problem will be disguised as a situation. Your have to figure out how to apply one/more of these to solve the problem.
 
 
-
-
 write the function that converts string into integers.
-
- Write a JSON parser. Just write a json parser that parses json formatted string into complex dictionaries or list or whatever.
-
-
+Write a JSON parser. Just write a json parser that parses json formatted string into complex dictionaries or list or whatever.
 maximum time of an algorithm  - big O
-
 prefix and postfix forms
-
-
-
-
 
 How to read/write from/to files
 How to read input from the console
@@ -323,10 +304,6 @@ How to split strings
 
 In C/C++, how to handle null-terminated strings
 Arrays: remove even integers, merge two sorted arrays, find second max value in array
-
-
-
-
 Given an array,find the maximum j – i such that arr[j] > arr[i]
 
 Remove Alternate Duplicate characters from a char array you have to do it in Place.Like keeping only the odd occurrences of each character.
@@ -336,9 +313,6 @@ Allowed Time Complexity was O(n)
 and Space Complexity was O(1) 
 
 In a file there are 1 million words . Find 10 most frequent words in that file.
-
-
-
 
 Given a positive integer N, count all possible distinct binary strings of length N such that there are no consecutive 1’s.
 
@@ -351,7 +325,6 @@ You are given a string as input which represents a path. You have to normalize t
 e.g. input : "\a\b\c\..\..\file.txt" 
 output: "\a\file.txt" 
 
-
 Given two sorted arrays (with repetitive elements) find the kth minimum number from both arrays.
 
 Find an element in a rotated array
@@ -360,7 +333,6 @@ A MxN matrix containing integers (positive, negative and zeros). For every posit
 Rotate MxN matrix by 90 degrees.
 
 Find the nth number that contains the digit k or is divisible by k. (2 <= k <= 9)
-
 
 Implement a hashmap on your own. Write a good hashing function for string.
 Given an array, arrange the elements such that the number formed by concatenating the elements is highest.
@@ -380,7 +352,6 @@ Given an array which is first strictly increasing and then strictly decreasing. 
 Given a string example : shoppingwithflipkartiseasy, Now we are given this string and a dictionary containing valid words , now we need to break the sentence into words separated by space. Output : shopping with flipkart is easy
 
 Given a series 2,3,4,5,6,8,9,10,……, here in this series all the numbers are present which have factors only and only either 2,3 or 5. Need to write a node to generate the nth number for the series . With best approach and complexity
-
 
 Merge k sorted arrays.
 Given a maze, a start point and end point find the shortest path to reach the end point from the starting point.

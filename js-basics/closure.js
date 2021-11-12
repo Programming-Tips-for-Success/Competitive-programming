@@ -53,7 +53,7 @@ function add(){
 
 add(3, 4, 5) 
 
-//example:
+//example: iife function
 var globalVar = "xyz";
 (function outerFunc(outerArg) {
   var outerVar = 'a';

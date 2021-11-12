@@ -38,4 +38,18 @@ numbers.push(i + 1);
 }
 console.log(numbers); // [ 1, 2, 3, 4 ]
 
+let a = [2,4, 5];
+delete a[1];
+console.log(a.length)
+// solution-
+// length will  not change 
+// o/p-> 3
+
+let aa = {y:10}
+aa['x'] = aa;
+ console.log(JSON.stringify(aa))
+ 
+//  answer-
+//  it will show error
+
 // node js-basics/array.js

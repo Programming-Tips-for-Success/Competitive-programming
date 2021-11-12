@@ -1,6 +1,19 @@
-What are the major operations that one can perform in DSA?
+1. What are the major operations that one can perform in DSA?
+Create:- The create operation results in reserving memory for program elements. This can be done by declaration statement. Creation of data structure may take place either during compile-time or run-time. malloc() function of C language is used for creation.
+Destroy:- Destroy operation destroys memory space allocated for specified data structure. free() function of C language is used to destroy data structure.
+Selection:- Selection operation deals with accessing a particular data within a data structure.
+Updation:- It updates or modifies the data in the data structure.
+Searching:- It finds the presence of desired data item in the list of data items, it may also find the locations of all elements that satisfy certain conditions.
+Sorting:- Sorting is a process of arranging all data items in a data structure in a particular order, say for example, either in ascending order or in descending order.
+Merging:- Merging is a process of combining the data items of two different sorted list into a single sorted list.
+Splitting:- Splitting is a process of partitioning single list to multiple list.
+Traversal:- Traversal is a process of visiting each and every node of a list in systematic manner.
 
 2. Give a brief description of Postfix, prefix, and Infix notations.
+
+1   Exponentiation ^	Highest	
+2	Multiplication ( ∗ ) & Division ( / )	Second Highest	
+3	Addition ( + ) & Subtraction ( − )	Lowest
 
 3. Explain the use of dynamic Data Structures
 
@@ -37,3 +50,9 @@ What are the major operations that one can perform in DSA?
 19. Explain DFS and BFS.
 
 20. Has the worst case of QuickSort occurred? Explain.
+
+find symmetric pair
+  let arr =  [[1,3],[2,17], [3, 1], [45,76], [8,9], [17,2]];
+
+find searched number
+  let arr = [10,11,12,1,2,3,4,5,6,7, 8,9];

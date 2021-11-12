@@ -68,4 +68,6 @@ class Number2{
   const j1 = new Number2(5,6,7);
   j1.compare();
 
+
+  
    // node js-basics/class.js   
