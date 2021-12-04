@@ -27,4 +27,13 @@ for (let i = 0; i < 100; i++) {
 }  
 console.timeEnd('loop')
 
+// tricky question-
+let arr = [1,2 ,4, 6 ];
+arr.forEach((el)=>{
+if(el == 2) {
+return el;
+}
+console.log(el)
+})
+
           // node js-basics/for-loop.js
