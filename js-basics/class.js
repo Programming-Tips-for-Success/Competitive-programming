@@ -71,3 +71,33 @@ class Number2{
 
   
    // node js-basics/class.js   
+
+
+
+// new problem correct this
+// function std(name,gender){
+//   this.name = name;
+//   this.gender = gender;
+// }
+
+// std.prototype.getBio = ()=>{
+//   console.log(this, this.name,'sfasd');
+// }
+
+// let std1 = new std("Himani","Female");
+
+// std1.getBio()
+
+// solution
+function std(name,gender){
+  this.name = name;
+  this.gender = gender;
+}
+
+std.prototype.getBio = function() {
+  console.log(this, this.name,'sfasd');
+}
+
+let std1 = new std("Himani","Female");
+
+std1.getBio()

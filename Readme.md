@@ -31,3 +31,7 @@ https://leetcode.com/discuss/study-guide/1398371/new-learning-resource-for-premi
 
 
 questions  solved	- stats
+
+
+tinder’s LIKE system follows a Queue or FIFO system
+And tinder’s recommendation system follows a circular queue system
