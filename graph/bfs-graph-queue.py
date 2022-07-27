@@ -1,15 +1,4 @@
 
-# One common application of Breadth-first Search (BFS) is to find the shortest path from the root node to the target node.
-# It is a traversal Algo used on tree, graphs. It can be easily implemented using recursion, dictionary, list, queue etc. 
-
-# BFS Algorithm Applications-
-# To build index by search index
-# For GPS navigation
-# Path finding algorithms
-# In Ford-Fulkerson algorithm to find maximum flow in a network
-# Cycle detection in an undirected graph
-
-# Breadth First Traversal of a graph using queue
 
 from collections import defaultdict
 

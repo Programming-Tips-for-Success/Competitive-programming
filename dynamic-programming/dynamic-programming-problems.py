@@ -1,20 +1,6 @@
-# Dynamic Programming/Algorithm- 
-# Dynamic programming is all about ordering your computations in a way that avoids recalculating duplicate work. You have a main problem (the root of your tree of subproblems), and subproblems (subtrees). The subproblems typically repeat and overlap.
-# Optimization over recursion.
-# Reduce the complexity.
+e
 
-# overlapping subproblem-
-#  Dynamic Programming is not useful when there are no common (overlapping) subproblems because there is no point storing the solutions if they are not needed again. 
-# example binary search - DP solution not possible
-
-# Top-Down vs Bottom-Up Dynamic Programming.
-#  two different ways to store the values so that these values can be reused:
-# a) Memoization (Top Down)
-# b) Tabulation (Bottom Up)
-
-# optimal substructure
-
-# Examples-
+# Problems-
 # Fibonacci problem 
 
 # Rod Cutting Problem, 

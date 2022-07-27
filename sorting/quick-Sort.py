@@ -65,8 +65,7 @@ swaps:
 At this point the array is sorted and we print the necessary lines of output shown above.
 '''
 
-# Quick sort
-# use Divide and conquer approach. Quicksort splits the array into smaller arrays until it ends up with an empty array or one that has only one element, before recursively sorting the larger arrays.
+
 
 # function to find the partition position
 def partition(array, low, high):
@@ -121,15 +120,3 @@ quickSort(data, 0, size - 1)
 print('Sorted Array in Ascending Order:')
 print(data)
 
-# comparison merge and quick sort
-# Mergesort is more efficient & faster than Quicksort in case of a large array and Quicksort is more efficient & faster than Mergesort in case of a small array but memory requirement is more in mergesort as compared to quicksort.
-
-
-# mergesort is stable while Quicksort is not-stable. This means equal elements retain their spot before and after sorting.
-
-# Both Merge sort and Insertion sort can be used for linked lists.  
-# The slow random-access performance of a linked list makes other algorithms (such as quicksort)  perform poorly, and others (such as heapsort) completely impossible.  
-
-# Since the worst-case time complexity of Merge Sort is O(nLogn) and  
-
-# Insertion sort is O(n^2), merge sort is preferred. 

@@ -1,6 +1,3 @@
-// right shift operator
-// bitwise operator that is unsigned in JavaScript.
-// Bitwise operators treat their operands as a sequence of 32 bits (zeros and ones)
 
 
 // convert decimal to number

@@ -1,6 +1,3 @@
-# Radix sort*-  grouping the individual digits of the same place value then sort it
-# also known as counting sort
-# Using counting sort to sort the elements in the basis of significant places
 
 # When you are sorting integers with a limited range.
 def countingSort(array, place):

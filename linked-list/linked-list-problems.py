@@ -1,26 +1,3 @@
-# It is used to develop your ability with complex pointer algorithms. It is easy to insert and delete elements in Linked List. Random access is not allowed in a typical implementation of Linked Lists. In the worst case, the element to be searched has to be compared with all elements of the linked list. In python, we can implement a linked list with nodes. 
-
-# A linked list is a linear collection of data elements whose order is not determined by the placement in memory. Instead, each element is stored in a node that points to the next node. 
-# A singly linked list in which values are inserted in either ascending or descending order is called an ordered singly linked list.
-# In an unordered list, we shall insert a new value at the end of the list.
-
-#  Linked list types - 
-
-# Singly:
-
-# There is only one link between any two data elements. Basic operations you can perform with this insert, update, remove. 
-
-# Doubly:
-
-# Doubly linked lists are useful for more than just inserting and removing elements from the head and tail of the list. They can maintain a list of elements that allow for insertion and removal to the list's interior. if we execute events in the wrong order, we can erase crucial information that will break the list. 
-
-# circular:  
-
-# the first element points to the last element and the last element points to the first element.
-
-# Array vs Linked list-
-
-# Arrays have better cache locality that can make them better in terms of performance as compared to LL. The size of the array has to be pre-decided, linked lists can change their size at any time.  
 
 
 
@@ -28,17 +5,6 @@
 # Topics to cover - The following operations make linked lists an ADT:
 # Iterative & recursive approaches
 # Doubly LinkedList, flattering linked list
-
-# Main Linked Lists Operations
-# Sorting and searching operations on LL
-#  Insert: inserts an element into the list
-#  Delete: removes and returns the specified position element from the list
-
-# Auxiliary Linked Lists Operations
-#  Delete List: removes all elements of the list (disposes the list)
-#  Count: returns the number of elements in the list
-#  Find 𝑛𝑡ℎ node from the end of the list
-
 # Implement Stack using Linked List
 
 # You are given a pointer to the first element of a linked list 𝐿. There are two possibilities for 𝐿, it

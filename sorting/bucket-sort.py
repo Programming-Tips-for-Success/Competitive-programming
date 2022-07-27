@@ -1,6 +1,4 @@
-# bucket sort
-# When you can guarantee that your input is approximately uniformly distributed.
-# dividing the elements into several groups called buckets.
+
 def bucketSort(array):
     bucket = []
 

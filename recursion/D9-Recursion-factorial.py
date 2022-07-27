@@ -1,10 +1,4 @@
-# best example of recursion-
-# The binary tree search
-# Check for a palindrome
-# Finding factorial - done
-# Traversing the folder hierarchy of a directory tree as part of a file system
-# Towers of Hanoi
-# Merge sort
+
 
 '''
 Objective

@@ -1,6 +1,5 @@
 
 
-// For queues use push & shift,  push add data to end and shift take data from the beginning
 
 let queue = [];
 

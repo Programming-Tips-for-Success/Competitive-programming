@@ -8,7 +8,6 @@
 // check list same or not return boolean
 
 
-// a hashmap is a data structure that lets you write and read in O(1) time
 
 function verifyAllEqual(list1, list2) {
     // fail fast if both Lists are not the same Length

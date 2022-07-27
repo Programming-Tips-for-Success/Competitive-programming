@@ -1,7 +1,7 @@
 # problem statement
 # Can you determine if a given string, is a palindrome?
 
-# A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. 
+
 
 # Sample Input
 # racecar

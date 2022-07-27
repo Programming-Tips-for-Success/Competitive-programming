@@ -1,14 +1,10 @@
-# For searching a value, if we had a sorted array we could have performed a binary search. 
-#  we use divide and conquer approach to achieve this. At each state half data is discarded. Binary search and hash tables give faster-searching capability.
+
 
 # Algo-
 # Find mid element
 # If mid value less than searched element then increase lower index
 # If mid value greater than searched element then decrease upper index
 
-# Application-
-# When you search for a name of song in a sorted list of songs, it performs binary search and string-matching to quickly return the results.
-# Used to debug in git through git bisect
 
 # find elemnet in sorted and unsorted list
 class search:
