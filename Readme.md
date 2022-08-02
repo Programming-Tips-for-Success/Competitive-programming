@@ -19,15 +19,15 @@ How to identify patterns in problems by going through sample inputs and consider
 
 Algorithm problem includes-
 problem statement
-input 
-output 
+input/output - General cases, base cases, error cases
 Algorithm 
 code 
 Time and space complexity 
-General cases, base cases, error cases
-every problem can be solved with recursion and without recursion
-How to determine whether to use an iterative solution or a recursive solution
+Every problem can be solved with recursion and without recursion
 Can you solve this challenge in 4 lines of code or less?
+How many approaches possible?
+
+How to determine whether to use an iterative solution or a recursive solution
 
 TO RUN ts code- 
 tsc linked-list/ll.ts
@@ -308,7 +308,7 @@ https://codeshare.io/  it also helps you in taking interviews
 
 Bucky Roberts
 
- cs50
+cs50
 
 https://abhishekdeb48.medium.com/all-about-machine-coding-round-8e56c866fe87
 
@@ -439,3 +439,21 @@ https://lcpredictor.herokuapp.com/
 linkedin.com/interview-prep
 https://www.bigocheatsheet.com/
 https://www.deepmind.com/blog/competitive-programming-with-alphacode
+
+https://www.scaler.com/topics/data-structures/data-structure-algorithm/																								
+https://www.educative.io/blog/apple-coding-interview-questions																								
+https://www.educative.io/blog/cracking-top-facebook-coding-interview-questions																								
+https://www.educative.io/blog/microsoft-interview-coding-questions																								
+https://www.educative.io/blog/hardest-coding-interview-questions	
+
+https://www.interviewbit.com/data-structure-interview-questions				
+https://practice.geeksforgeeks.org/contest/interview-series-phonepe/	
+https://practice.geeksforgeeks.org/courses/google-test-series		
+https://www.codementor.io/@martinsonuoha/queue-data-structure-in-javascript-1asy5n63yb?ref=newsletter	
+https://sunilgudivada369.gitbook.io/notebook/miscellaneous/my-preparation-for-tech-giants		
+https://www.interviewbit.com/data-structure-mcq/?utm_source=midfunnel&utm_medium=email	
+https://www.interviewbit.com/data-structure-interview-questions/?utm_source=midfunnel&utm_medium=email	
+https://portal.microideation.com/viewer/ideation-series/1_data-structures_linear-data-structures		
+https://450dsa.com/												
+Dan Abramov		top coders
+https://www.sdeskills.com/programs
