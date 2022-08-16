@@ -124,4 +124,5 @@
 # Reversal of Linked List in groups of K.
 
 # Given two linked lists both represent a number. Create a linked list that contains its sum.
+# Find 𝑛𝑡ℎ node from the end of the list
 
