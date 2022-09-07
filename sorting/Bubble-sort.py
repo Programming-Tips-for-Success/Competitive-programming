@@ -1,6 +1,4 @@
 # Bubble sort
-
-# simple sorting algorithm called Bubble Sort.
 # for (int i = 0; i < n; i++) {
 #     // Track number of elements swapped during a single array traversal
 #     int numberOfSwaps = 0;

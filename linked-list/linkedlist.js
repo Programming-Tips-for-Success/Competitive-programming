@@ -1,6 +1,28 @@
+// index-
+// Node
+// LinkedList - head start
+// insertAtBeginning
+// addToHead - append
+// insertAtEnd
+// getAt - get data
+// insertAt
+// deleteFirstNode
+// deleteLastNode
+// deleteAt
+// deleteList
+// reverse
+// indexOf
+// isEmpty
+// listSize
+// getFirst
+// getLast
+// printList
+// findNode - search
+// deleteNode
+
 class Node {
     constructor(data, next = null) {
-        this.data = data,
+        this.data = data,  // value
             this.next = next
     }
 }
@@ -166,8 +188,6 @@ LinkedList.prototype.reverse = function(){
 }
 
 // This function will return first index which matches with the passed element.
-
-
 LinkedList.prototype.indexOf = function(data){
     let ind = -1;
     let node = this.head;
@@ -207,18 +227,46 @@ LinkedList.prototype.getLast = function() {
 }
 LinkedList.prototype.printList = function(){
     let node = this.head;
-    process.stdout.write("HEAD->")
+    console.log("HEAD->")
     while (node) {
-        process.stdout.write(node.data + "->");
+        console.log(node.data + "->");
         node = node.next;
     }
     console.log("NULL");
 }
+
+LinkedList.prototype.findNode = function(value) {
+    let current = this.head;
+    while (current) {
+      if (current.data === value) {
+        return current;
+      }
+      current = current.next;
+    }
+    return null;
+  }
+
+
+LinkedList.prototype.deleteNode = function(value) {
+    if (this.head.value === value) {
+      this.head = this.head.next;
+    } else {
+      let current = this.head;
+      while (current.next) {
+      if (current.next.value === value) {
+         current.next = current.next.next;
+         return;
+      }
+      current = current.next;
+    }
+   }
+  }
+
 let myList = new LinkedList();
-
-
+let ee = myList.insertAtBeginning(2);
+console.log(ee);
 
 
 // HEAD->5->11->7->NULL
-// 
+
 // node linked-list/linkedlist.js

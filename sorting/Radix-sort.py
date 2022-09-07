@@ -40,8 +40,3 @@ def radixSort(array):
 data = [121, 432, 564, 23, 1, 45, 788]
 radixSort(data)
 print(data)
-
-# time complexity is O(d(n+k)) d is the number cycle and O(n+k) is the time complexity of counting sort.
-
-# If we take very large digit numbers or the number of other bases like 32-bit and 64-bit numbers then it can perform in linear time however the intermediate sort takes large space.
-# This makes radix sort space inefficient.

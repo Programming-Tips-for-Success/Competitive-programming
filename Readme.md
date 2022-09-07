@@ -29,18 +29,12 @@ Can you solve this challenge in 4 lines of code or less?
 How many approaches possible?
 How to determine whether to use an iterative solution or a recursive solution
 
-https://leetcode.com/discuss/study-guide/1398371/new-learning-resource-for-premium-users-detailed-explanation-of-graph
-https://www.tiobe.com/tiobe-index/
-https://airtable.com/shrEK8xJUuwBMzPim/tblEZK8CEzv2HtHB7
-https://scratch.mit.edu/
 SPOJ (Sphere Online Judge)
 HackerEarth- online coding platform which organises coding contests, data science competitions and hackathons.
 https://www.hackerearth.com/practice/
-https://www.hackerearth.com/practice/notes/getting-started-with-the-sport-of-programming/
-https://www.hackerearth.com/practice/notes/kaushik.mv3/learn-to-code-by-competitive-programming/
 https://www.hackerearth.com/practice/codemonk/
-https://www.hackerearth.com/challenges/competitive/practice-test-fullstack/
 https://www.hackerearth.com/challenges/competitive/april-circuits-21/
+https://www.hackerearth.com/practice/notes/getting-started-with-the-sport-of-programming/
 CodeChef- It hosts lots of programming competitions from time to time. It is initiated by Directi. It has got lots of long contests.
 skrcode - codechef top-rated programmer
 There are other top coders you can check their profiles- Petr, Gennady Korotkevich
@@ -299,3 +293,19 @@ https://www.sdeskills.com/programs
  https://www.geeksforgeeks.org/7-best-tips-to-get-hired-at-faang-companies/
  	https://leetcode.com/problem-list/top-amazon-questions/
 	https://leetcode.com/contest/weekly-contest-307/
+
+my profiles-
+	https://www.codechef.com/users/sunnygupta001
+	https://leetcode.com/sunnyvales/
+	https://auth.geeksforgeeks.org/user/sunnygp07/profile
+	https://csacademy.com/user/sunnyvales
+	https://www.codewars.com/users/sunny7899
+	https://www.hackerrank.com/sunnyvales789
+	https://atcoder.jp/users/sunnyvale
+	https://www.techgig.com/sunnyvales
+	https://www.codecademy.com/profiles/pyPlayer18718
+	https://codeforces.com/profile/sunnyvales
+	https://www.topcoder.com/members/sunny7899
+	https://www.hackerearth.com/@sunnyvales
+	https://www.spoj.com/status/sunnyvale/
+	https://www.stopstalk.com/user/profile/codeworkout

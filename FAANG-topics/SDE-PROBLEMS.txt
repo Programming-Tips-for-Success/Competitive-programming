@@ -73,7 +73,7 @@ so this strategy is not for every problem.
 
 Applications-
 1. N meeting in one room 
-2. Activity Selection problem
+2. Activity Selection problem (Greedy kind of problems/programming)
 3. Greedy algorithm to find minimum number of coins
 4. Fractional Knapsack Problem 
 5. Minimum number of platforms required for a railway 
