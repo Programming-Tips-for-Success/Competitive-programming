@@ -111,4 +111,80 @@ console.log(queue2.element);
 queue2.dequeue();
 console.log(queue2.element);
 
+
+
+
+   function Queue() {
+      let array = [];
+      this.print = function () {
+        console.log(array);
+      };
+      this.enqueue = function (newMem) {
+    
+if (this.isEmpty()) {
+
+array.push(newMem);
+
+}  else {
+var added = false;
+for (var i = 0; i<array.length; i++) {
+if (newMem[1] < array[i][1]) {
+array.splice(i, 0, newMem);
+          added = true;
+break;
+        }
+      }
+if (!added) {
+array.push(newMem);
+      }
+    }
+
+      };
+      this.dequeue = function () {
+        var value = array.shift();
+return value[0];
+ 
+      };
+      this.front = function () {
+        return array[0];
+      };
+      this.size = function () {
+        return array.length;
+      };
+      this.isEmpty = function () {
+        return array.length === 0;
+      };
+    }
+
+      var newQueue = new Queue();
+//       newQueue.enqueue('a');
+
+//       newQueue.enqueue('b');
+
+//       newQueue.enqueue('c');
+//       newQueue.print();
+
+//       newQueue.dequeue();
+//       newQueue.enqueue('d');
+
+// console.log(newQueue.front());
+
+// newQueue.print();
+
+
+var pq = new Queue();
+
+pq.enqueue(["Google", 2]);
+
+pq.enqueue(["Bing", 3]);
+
+pq.enqueue(["Microsoft", 1]);
+
+pq.enqueue(["Apple", 2]);
+
+
+pq.print();
+pq.dequeue();
+pq.print();
+
 // node queue/queue.js
