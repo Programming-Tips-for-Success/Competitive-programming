@@ -1,3 +1,6 @@
+To run python programs-
+>python filename.py
+
 # questions solved	- stats
 
 ## Programming/Coding  problem Solutions / Problem Solving / White Board Coding
@@ -309,3 +312,41 @@ my profiles-
 	https://www.hackerearth.com/@sunnyvales
 	https://www.spoj.com/status/sunnyvale/
 	https://www.stopstalk.com/user/profile/codeworkout
+
+https://develop.codejudge.io/contests
+
+https://www.interviewbit.com/practice/?utm_source=midfunnel&utm_medium=email
+
+https://app.codility.com/programmers/challenges/pairacoder_2022/
+https://app.codility.com/programmers/challenges/codealone_2021/
+https://app.codility.com/programmers/challenges/gamers_2021/
+https://app.codility.com/programmers/challenges/national_coding_week2022/
+
+
+https://www.codechef.com/START8A
+https://www.codechef.com/START22
+https://www.codechef.com/JAN222
+https://www.codechef.com/EXUN2021
+https://www.codechef.com/JAN221?
+https://www.codechef.com/CDRV2021
+https://www.codechef.com/COOK136
+https://www.codechef.com/START20
+https://www.codechef.com/START19
+https://www.codechef.com/COOK135
+https://www.codechef.com/NIUM2101
+https://www.codechef.com/COOK134?
+https://www.codechef.com/START15
+https://www.codechef.com/START21
+https://www.codechef.com/OCT21
+
+https://leetcode.com/discuss/interview-experience/1403091/facebook-e5-remote-offer
+interviewhelp.io
+https://leetcode.com/contest/weekly-contest-190/
+
+https://app.codility.com/programmers/challenges/jurassic_code2022/
+https://practice.geeksforgeeks.org/contest/interview-series-59
+
+https://leetcode.com/contest/weekly-contest-276/
+https://leetcode.com/explore/featured/card/heap/
+https://leetcode.com/explore/learn/card/graph/
+https://leetcode.com/explore/featured/card/dynamic-programming/
