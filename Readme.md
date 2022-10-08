@@ -38,6 +38,7 @@ https://www.hackerearth.com/practice/
 https://www.hackerearth.com/practice/codemonk/
 https://www.hackerearth.com/challenges/competitive/april-circuits-21/
 https://www.hackerearth.com/practice/notes/getting-started-with-the-sport-of-programming/
+
 CodeChef- It hosts lots of programming competitions from time to time. It is initiated by Directi. It has got lots of long contests.
 skrcode - codechef top-rated programmer
 There are other top coders you can check their profiles- Petr, Gennady Korotkevich
@@ -46,31 +47,62 @@ https://discuss.codechef.com/t/programming-contest-detailed-syllabus-along-with-
 https://www.codechef.com/getting-started
 https://discuss.codechef.com/t/data-structures-and-algorithms/6599
 https://www.codechef.com/certification/data-structures-and-algorithms/prepare#foundation
+https://snackdown.codechef.com/registration?
+https://www.codechef.com/START8A
+https://www.codechef.com/START22
+https://www.codechef.com/JAN222
+https://www.codechef.com/EXUN2021
+https://www.codechef.com/JAN221?
+https://www.codechef.com/CDRV2021
+https://www.codechef.com/COOK136
+https://www.codechef.com/START20
+https://www.codechef.com/START19
+https://www.codechef.com/COOK135
+https://www.codechef.com/NIUM2101
+https://www.codechef.com/COOK134?
+https://www.codechef.com/START15
+https://www.codechef.com/START21
+https://www.codechef.com/OCT21
+
 ProjectEuler: use any programming language you want to practice. Project Euler tests are dedicated to exploring the marriage between mathematics and programming. Use programming tools to solve various mathematical difficulties.
 https://projecteuler.net/archives
+
 topcoder- They also organize various coding competitions. You can win money from this site if you win the competitions. It is the best platform in terms of the coding contest.
 https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming
+
 codeforces- It is a good programming community. They also organise programming contests. The best resource for competitive programming. It is well known for 2-hour rounds. Russian website dedicated to competitive programming.
 https://codeforces.com/blog/entry/57282
+
 Hackerrank-A good resource for developers. Here you can practice coding and also you can prepare for interviews. Good for a beginner.
 https://www.hackerrank.com/challenges/pairs/problem
 https://www.hackerrank.com/interview/interview-preparation-kit
+
 Techgig*- It is India's online tech community. here you can also practice and compete with fellow techies.
 https://www.techgig.com/edufront#codefest
 https://www.techgig.com/challenge/edufront-codefest2020
 https://www.techgig.com/hackathon/dunhummby-pythonml
+
 codility
 https://app.codility.com/candidate-faq
 https://app.codility.com/programmers/lessons/1-iterations/
 https://app.codility.com/demo/take-sample-test/
+https://app.codility.com/programmers/challenges/pairacoder_2022/
+https://app.codility.com/programmers/challenges/codealone_2021/
+https://app.codility.com/programmers/challenges/gamers_2021/
+https://app.codility.com/programmers/challenges/national_coding_week2022/
+https://app.codility.com/programmers/challenges/jurassic_code2022/
+
 codingbat
 on this site, you can only practice java and python logic. it got lots of practice problems which you can solve to improve your skills.
 https://codingbat.com/python
+
 khanAcademy
 It has content for all courses created by experts. You can learn anything for free on this site.
 https://www.khanacademy.org/computing/computer-science/algorithms
+
 codecademy
 It is a tutorial site where you can learn technical skills from here.
+
 venturesity:
 https://skillenza.com/
 codewars:
@@ -108,12 +140,30 @@ https://practice.geeksforgeeks.org/contest/interview-series-google/problems/
 https://practice.geeksforgeeks.org/problems/shortest-path-between-cities/1#
 https://practice.geeksforgeeks.org/problems/963b3db8c7ac09d564c9d354c07af13c624ba94d/1
 https://practice.geeksforgeeks.org/problems/neemans-shoes/1/#
+https://practice.geeksforgeeks.org/contest/interview-series-phonepe/	
+https://practice.geeksforgeeks.org/courses/google-test-series	
+ https://www.geeksforgeeks.org/7-best-tips-to-get-hired-at-faang-companies/
+ https://practice.geeksforgeeks.org/contest/interview-series-59	
+
 Leetcode*:
 https://leetcode.com/explore/interview/card/top-interview-questions-easy/
 https://leetcode.com/explore/learn/card/queue-stack/
 https://leetcode.com/explore/challenge/card/february-leetcoding-challenge-2021/584/week-1-february-1st-february-7th/3625/
 https://leetcode.com/explore/challenge/card/july-leetcoding-challenge-2021/608/week-1-july-1st-july-7th/3800/
 https://leetcode.com/discuss/general-discussion/1041234/Become-LeetCode
+https://github.com/seanprashad/leetcode-patterns
+https://seanprashad.com/leetcode-patterns/
+	https://leetcode.com/problem-list/top-amazon-questions/
+	https://leetcode.com/contest/weekly-contest-307/
+	https://leetcode.com/discuss/interview-experience/1403091/facebook-e5-remote-offer
+interviewhelp.io
+https://leetcode.com/contest/weekly-contest-190/
+https://leetcode.com/contest/weekly-contest-276/
+https://leetcode.com/explore/featured/card/heap/
+https://leetcode.com/explore/learn/card/graph/
+https://leetcode.com/explore/featured/card/dynamic-programming/
+https://leetcode.com/contest/weekly-contest-272/
+
 Gitconnected
 https://gitconnected.com/resume-builder
 https://gitconnected.com/portfolio-api
@@ -173,7 +223,7 @@ https://www.quora.com/What-are-the-algorithms-required-to-solve-all-problems-usi
 https://www.quora.com/What-is-the-best-strategy-to-improve-my-skills-in-competitive-programming-in-C++-in-2-3-months
 https://www.quora.com/What-are-the-popular-algorithms-that-you-need-to-know-as-a-competitive-programmer?top_ans=197881082
 https://github.com/jnikhilreddy/Competitive-programming-resources
-https://github.com/seanprashad/leetcode-patterns
+
 https://github.com/lnishan/awesome-competitive-programming
 https://gist.github.com/sharmaeklavya2/8aa2830f3a46a3f46ff249b4e1f07767 (syllabus)
 
@@ -268,8 +318,9 @@ http://cptracker.herokuapp.com/
 clist
 https://clist.by/
 https://afteracademy.com/
-https://snackdown.codechef.com/registration?
-https://seanprashad.com/leetcode-patterns/
+
+
+
 https://lcpredictor.herokuapp.com/
 linkedin.com/interview-prep
 https://www.bigocheatsheet.com/
@@ -280,8 +331,7 @@ https://www.educative.io/blog/cracking-top-facebook-coding-interview-questions
 https://www.educative.io/blog/microsoft-interview-coding-questions																								
 https://www.educative.io/blog/hardest-coding-interview-questions	
 https://www.interviewbit.com/data-structure-interview-questions				
-https://practice.geeksforgeeks.org/contest/interview-series-phonepe/	
-https://practice.geeksforgeeks.org/courses/google-test-series		
+
 https://www.codementor.io/@martinsonuoha/queue-data-structure-in-javascript-1asy5n63yb?ref=newsletter	
 https://sunilgudivada369.gitbook.io/notebook/miscellaneous/my-preparation-for-tech-giants		
 https://www.interviewbit.com/data-structure-mcq/?utm_source=midfunnel&utm_medium=email	
@@ -293,9 +343,9 @@ https://www.sdeskills.com/programs
  https://garima007rajput.medium.com/
  https://garima007rajput.medium.com/googles-interview-preparation-routine-be6647910a5b?source=user_profile
  https://medium.com/@sriram17/how-to-switch-from-a-service-basedcompany-to-the-product-based-company-af2db4c47ef5
- https://www.geeksforgeeks.org/7-best-tips-to-get-hired-at-faang-companies/
- 	https://leetcode.com/problem-list/top-amazon-questions/
-	https://leetcode.com/contest/weekly-contest-307/
+
+
+ 
 
 my profiles-
 	https://www.codechef.com/users/sunnygupta001
@@ -317,36 +367,4 @@ https://develop.codejudge.io/contests
 
 https://www.interviewbit.com/practice/?utm_source=midfunnel&utm_medium=email
 
-https://app.codility.com/programmers/challenges/pairacoder_2022/
-https://app.codility.com/programmers/challenges/codealone_2021/
-https://app.codility.com/programmers/challenges/gamers_2021/
-https://app.codility.com/programmers/challenges/national_coding_week2022/
-
-
-https://www.codechef.com/START8A
-https://www.codechef.com/START22
-https://www.codechef.com/JAN222
-https://www.codechef.com/EXUN2021
-https://www.codechef.com/JAN221?
-https://www.codechef.com/CDRV2021
-https://www.codechef.com/COOK136
-https://www.codechef.com/START20
-https://www.codechef.com/START19
-https://www.codechef.com/COOK135
-https://www.codechef.com/NIUM2101
-https://www.codechef.com/COOK134?
-https://www.codechef.com/START15
-https://www.codechef.com/START21
-https://www.codechef.com/OCT21
-
-https://leetcode.com/discuss/interview-experience/1403091/facebook-e5-remote-offer
-interviewhelp.io
-https://leetcode.com/contest/weekly-contest-190/
-
-https://app.codility.com/programmers/challenges/jurassic_code2022/
-https://practice.geeksforgeeks.org/contest/interview-series-59
-
-https://leetcode.com/contest/weekly-contest-276/
-https://leetcode.com/explore/featured/card/heap/
-https://leetcode.com/explore/learn/card/graph/
-https://leetcode.com/explore/featured/card/dynamic-programming/
+https://www.credit-suisse.com/pwp/hr/en/codingchallenge/
