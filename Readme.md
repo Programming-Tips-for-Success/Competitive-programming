@@ -69,6 +69,7 @@ https://projecteuler.net/archives
 
 topcoder- They also organize various coding competitions. You can win money from this site if you win the competitions. It is the best platform in terms of the coding contest.
 https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming
+https://www.topcoder.com/challenges/71a7c542-2c1e-4483-a47f-07c70da51acb
 
 codeforces- It is a good programming community. They also organise programming contests. The best resource for competitive programming. It is well known for 2-hour rounds. Russian website dedicated to competitive programming.
 https://codeforces.com/blog/entry/57282
@@ -144,7 +145,8 @@ https://practice.geeksforgeeks.org/contest/interview-series-phonepe/
 https://practice.geeksforgeeks.org/courses/google-test-series	
  https://www.geeksforgeeks.org/7-best-tips-to-get-hired-at-faang-companies/
  https://practice.geeksforgeeks.org/contest/interview-series-59	
-
+	https://practice.geeksforgeeks.org/contest/interview-series-samsung-2
+	
 Leetcode*:
 https://leetcode.com/explore/interview/card/top-interview-questions-easy/
 https://leetcode.com/explore/learn/card/queue-stack/
@@ -367,4 +369,4 @@ https://develop.codejudge.io/contests
 
 https://www.interviewbit.com/practice/?utm_source=midfunnel&utm_medium=email
 
-https://www.credit-suisse.com/pwp/hr/en/codingchallenge/
+https://www.credit-suisse.com/pwp/hr/en/codingchallenge/   23oct
