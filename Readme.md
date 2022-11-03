@@ -370,3 +370,9 @@ https://develop.codejudge.io/contests
 https://www.interviewbit.com/practice/?utm_source=midfunnel&utm_medium=email
 
 https://www.credit-suisse.com/pwp/hr/en/codingchallenge/   23oct
+
+https://www.coursera.org/specializations/algorithms
+https://www.coursera.org/learn/algorithmic-thinking-
+https://www.topcoder.com/challenges/71a7c542-2c1e-4483-a47f-07c70da51acb
+
+ 
