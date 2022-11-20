@@ -52,9 +52,6 @@ def solution(S):
             scanned.get(invLetter).append(index)
         else:
             scanned[invLetter] = [index]
-        
-    
-        
     
     startIndex = -1
     endIndex = -1
@@ -74,8 +71,7 @@ def solution(S):
             else:
                 endIndex = temp if temp > endIndex else endIndex
                 tempMinBalancedString.append(letter)
-              
-            
+                         
         else:
     
             tempMinBalancedString = []

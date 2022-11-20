@@ -1,6 +1,10 @@
 To run python programs-
 >python filename.py
 
+<!-- pip install nsepy
+pip install matplotlib
+pip install google-colab -->
+
 # questions solved	- stats
 
 ## Programming/Coding  problem Solutions / Problem Solving / White Board Coding
@@ -374,5 +378,4 @@ https://www.credit-suisse.com/pwp/hr/en/codingchallenge/   23oct
 https://www.coursera.org/specializations/algorithms
 https://www.coursera.org/learn/algorithmic-thinking-
 https://www.topcoder.com/challenges/71a7c542-2c1e-4483-a47f-07c70da51acb
-
- 
+http://tco22.topcoder.com/
