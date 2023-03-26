@@ -1,5 +1,7 @@
+let n = 5;
+let m = 5;
 for (let i = 1; i < n; i *= 2) {
-    console.log(i);
+    // console.log(i);
 }
 // Here the loop will run (log n)-1 times
 // 1st iteration, i = 1
@@ -26,7 +28,7 @@ for (let i = 0; i < n; ++i) {
 
 for (let i = 0; i < n; ++i) {
     for (let j = 0; j < n; ++j) {
-        console.log(i, j);
+        // console.log(i, j);
     }
 }
 // Time Complexity: 
@@ -39,14 +41,15 @@ function fibonacci(n) {
     }
     return arr[n - 1];
 }
+console.log("fib", fibonacci(5));
 
 // Time Complexity: 
 // space Complexity: 
 
-const arr = [];
+const arr1 = [];
 for (let i = 0; i < n; ++i) {
     for (let j = 0; j < n; ++j) {
-        arr.push(i + j);
+        arr1.push(i + j);
     }
 }
 // Here the array will take n² space
@@ -64,10 +67,10 @@ for (let j = 0; j < m; ++j) {
 // Space Complexity: O(1)
 
 
-let a = 0, b = 0;
+let a1 = 0, b1 = 0;
 for (let i = 0; i < n; ++i) {
     for (let j = 0; j < n; ++j) {
-        a = a + j;
+        a1 = a1 + j;
     }
 }
 // time Complexity: 
@@ -80,10 +83,10 @@ for (let k = 0; k < n; ++k) {
 // Time Complexity: O(n²)
 // Space Complexity: O(1)
 
-let a = 0;
+let a2 = 0;
 for (let i = 0; i < n; ++i) {
     for (let j = n; j > i; --j) {
-        a = a + i + j;
+        a2 = a2 + i + j;
     }
 }
 // time Complexity: O(n²)
