@@ -387,3 +387,5 @@ https://visualgo.net/en/sorting
 
 https://app.codility.com/programmers/challenges/pi_challenge_2023/
 
+
+https://www.techgig.com/challenge/PraxisBusinessSchool?sourcetype=brandpower&utm_source=TG_batch&utm_medium=email&utm_campaign=promotion_2023-03-30&&auto_login=ZXExNWtiZzNEUTVHNFpDR0hnOTFuek92bjIvSTVDWEQ4Yk9JZ201QXJoVERRRnpDWHg5bXlNUTNnZlkwMmpnK3NjaGhBWHRpQVc0REN3R2hWN1A0OFE9PQ==&etoken=ZXExNWtiZzNEUTVHNFpDR0hnOTFuNmFpV0VhVklJQ3JIUVo3YlhpSHdQdz0=&link_src=VWZEQ0NwOTYrOGc2NHQvcHFaK3Qzdz09&activity_name=MTIwMzgyNA==&template_type=0&crid=dU1EazE0RlVwNDJiRFk1VkxjdzhtZz09&src_type=autoLogin    end on 16 aopril
