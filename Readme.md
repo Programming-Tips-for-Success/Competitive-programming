@@ -353,21 +353,6 @@ https://www.sdeskills.com/programs
 
  
 
-my profiles-
-	https://www.codechef.com/users/sunnygupta001
-	https://leetcode.com/sunnyvales/
-	https://auth.geeksforgeeks.org/user/sunnygp07/profile
-	https://csacademy.com/user/sunnyvales
-	https://www.codewars.com/users/sunny7899
-	https://www.hackerrank.com/sunnyvales789
-	https://atcoder.jp/users/sunnyvale
-	https://www.techgig.com/sunnyvales
-	https://www.codecademy.com/profiles/pyPlayer18718
-	https://codeforces.com/profile/sunnyvales
-	https://www.topcoder.com/members/sunny7899
-	https://www.hackerearth.com/@sunnyvales
-	https://www.spoj.com/status/sunnyvale/
-	https://www.stopstalk.com/user/profile/codeworkout
 
 https://develop.codejudge.io/contests
 
