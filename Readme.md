@@ -386,3 +386,5 @@ https://www.hackerrank.com/challenges/k-subarrays/forum
 https://brainly.in/question/47594114?referrer=searchResults
 
 https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
+
+https://visualgo.net/en/list?slide=1
