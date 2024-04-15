@@ -1,3 +1,8 @@
+// https://rithmschool.github.io/function-timer-demo/
+// https://cs.slides.com/colt_steele/big-o-notation
+// https://cs.slides.com/colt_steele/built-in-data-structures-25#/3/0/2
+// https://cs.slides.com/colt_steele/problem-solving-patterns
+
 let n = 5;
 let m = 5;
 for (let i = 1; i < n; i *= 2) {
@@ -34,17 +39,7 @@ for (let i = 0; i < n; ++i) {
 // Time Complexity: 
 // space Complexity: 
 
-function fibonacci(n) {
-    const arr = [0, 1];
-    for (let i = 2; i <= n; ++i) {
-        arr.push(arr[i - 2] + arr[ i - 1]);
-    }
-    return arr[n - 1];
-}
-console.log("fib", fibonacci(5));
 
-// Time Complexity: 
-// space Complexity: 
 
 const arr1 = [];
 for (let i = 0; i < n; ++i) {

@@ -44,6 +44,11 @@ class Stack {
             return null;
     }
 
+      // empty the stack
+  clear(){
+      this.items = [];
+  }
+
 
 }
 
@@ -81,13 +86,33 @@ function isBalanced(exp) {
 	return true
 }
 
+function print(x){
+console.log(x);
+
+}
+
+let stack = new Stack();
+stack.push(1);
+stack.push(2);
+stack.push(4);
+stack.push(8);
+print(stack.items);
+
+stack.pop();
+print(stack.items);
+
+print(stack.getTop());
+
+print(stack.isEmpty());
+
+print(stack.size());
+
+stack.clear();
+print(stack.items);
 
 var inputString = "{[()]}"
-console.log(inputString)
-console.log(isBalanced(inputString))
+print(isBalanced(inputString))
 
-inputString = "{[([({))]}}"
-console.log(inputString)
-console.log(isBalanced(inputString))
+print(isBalanced("{[([({))]}}"))
 
 // node stacks/balanced-parentheses.js

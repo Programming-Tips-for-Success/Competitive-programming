@@ -12,3 +12,8 @@ function solution(s, k) {
     var index = weekDays.findIndex(function (weekDay) { return weekDay == s; }); 
     return weekDays[(index + k) % 7];
 }
+
+function print(x){
+console.log(x);
+
+}

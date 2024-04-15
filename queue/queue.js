@@ -1,3 +1,9 @@
+// A FIFO data structure!
+
+// How do we use them in programming?
+// Background tasks
+// Uploading resources
+// Printing / Task processing
 
 
 let queue1 = [];
@@ -46,6 +52,11 @@ class Queue {
     clear(){
         this.items = [];
     }
+}
+
+function print(x){
+console.log(x);
+
 }
 
 let queue = new Queue();

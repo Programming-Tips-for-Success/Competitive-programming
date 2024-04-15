@@ -10,5 +10,5 @@ function dec2bin(dec) {
 
   console.log((9).toString(2));  // 1001
   
-  // node N-Days-of-Code/binary-number.js 
+  // node problems-js/binary-number.js 
         

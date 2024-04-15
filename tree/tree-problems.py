@@ -16,7 +16,7 @@
 # Traversing a Tree without Recursion and without a stack (Morris Traversal)
 # Traversing a Binary Tree
 
-# Trees, Tries: total number of words in Trie, find all words stored in Trie?
+
 # Segment Tree
 # Segment Tree (with lazy propagation)
 # Persistent Segment Tree

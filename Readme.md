@@ -36,6 +36,16 @@ Can you solve this challenge in 4 lines of code or less?
 How many approaches possible?
 How to determine whether to use an iterative solution or a recursive solution
 
+Can I restate the problem in my own words?
+What are the inputs that go into the problem?
+What are the outputs that should come from the solution to the problem?
+Can the outputs be determined from the inputs? In other words, do I have enough information to solve the problem? (You may not be able to answer this question until you set about solving the problem. That's okay; it's still worth considering the question at this early stage.)
+How should I label the important pieces of data that are a part of the problem?
+
+bottlenecks 
+unnecessary work 
+duplicated work 
+https://coderbyte.com/challenges#
 SPOJ (Sphere Online Judge)
 HackerEarth- online coding platform which organises coding contests, data science competitions and hackathons.
 https://www.hackerearth.com/practice/
@@ -158,7 +168,7 @@ https://leetcode.com/explore/challenge/card/february-leetcoding-challenge-2021/5
 https://leetcode.com/explore/challenge/card/july-leetcoding-challenge-2021/608/week-1-july-1st-july-7th/3800/
 https://leetcode.com/discuss/general-discussion/1041234/Become-LeetCode
 https://github.com/seanprashad/leetcode-patterns
-https://seanprashad.com/leetcode-patterns/
+https://seanprashad.com/leetcode-patterns/  shikhar
 	https://leetcode.com/problem-list/top-amazon-questions/
 	https://leetcode.com/contest/weekly-contest-307/
 	https://leetcode.com/discuss/interview-experience/1403091/facebook-e5-remote-offer
@@ -176,7 +186,6 @@ https://gitconnected.com/portfolio-api
 https://gitconnected.com/learn
 https://gitconnected.com/news
 
-binarysearch
 https://binarysearch.com/
 
 cses:
@@ -383,7 +392,7 @@ https://onecompiler.com/javascript/3waj7jff2
 
 https://www.hackerrank.com/challenges/k-subarrays/forum
 
-https://brainly.in/question/47594114?referrer=searchResults
+https://brainly.in/question/47594114
 
 https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
 

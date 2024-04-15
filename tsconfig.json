@@ -1,5 +1,19 @@
+// {
+//   "compilerOptions": {
+//     "target": "esnext",
+//     "type": "module"
+//   }
+// }
+
 {
-  "compilerOptions": {
-    "target": "esnext"
-  }
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "public/js",
+        "rootDir": "",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [""]
 }
