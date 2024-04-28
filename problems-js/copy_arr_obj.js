@@ -134,3 +134,81 @@ function main() {
 // true
 // true
 // false
+
+
+
+// var Food = {
+//   cuisine: 'abc',
+// };
+// var food1 = Object.create(Food);
+// delete food1.cuisine;
+// console.log(food1.cuisine, Food, food1); // abc { cuisine: 'abc' } {}
+
+// //  copy object problem-
+// let obj = {
+//   a: 1,
+//   b: 2,
+//   c: {
+//     age: 30,
+//   },
+// };
+// // var objclone = Object.assign({},obj); // instead of this we can use spread operator
+// var objclone = { ...obj };
+
+// console.log('objclone: ', objclone); // { a: 1, b: 2, c: { age: 30 } }
+// obj.c.age = 45;
+// console.log('After Change - obj: ', obj); // 45 - This also changes  { a: 1, b: 2, c: { age: 45 } }
+// console.log('After Change - objclone: ', objclone); // 45  { a: 1, b: 2, c: { age: 45 } }
+
+// // solution ?
+
+// // value update ?
+// var a = {},
+//   b = { key: 'b' },
+//   c = { key: 'c' };
+// a[b] = 123;
+// a[c] = 456;
+// console.log(a[b], a[c]); // 456 456
+
+// var checkProp = { hasownProperty: 1, foo: 2 };
+
+// console.log(checkProp.hasOwnProperty('foo'), 'hasOwnProperty'); // true
+
+// let obj3 = { person: 'John', age: 21 };
+// Object.freeze(obj3);
+
+// var det = { name: 'Tom', ID: 'E1001' };
+// var copy = Object.assign({}, det);
+
+// var o1 = { a: 10 };
+// var o2 = { b: 20 };
+// var o3 = { c: 30 };
+// var obj2 = Object.assign(o1, o2, o3);
+// console.log(obj2); // {a: 10, b: 20, c: 30}
+// console.log(o1); // {a: 10, b: 20, c: 30}
+// var o1 = { a: 10 };
+// var obj4 = Object.assign(o1);
+// obj4.a++;
+// console.log("Value of 'a' in the Merged object after increment  ");
+// console.log(obj4.a);
+// console.log(o1.a);
+// console.log("value of 'a' in the Original Object after increment ");
+
+// let demoObj = { name: 'smith', age: 24 };
+// console.log(Object.keys(demoObj)); // ["name", "age"]
+
+// let demoObj2 = { name: 'smith', age: 24 };
+// console.log(Object.values(demoObj2)); // ["smith", 24]
+
+// const item = {
+//   isAvailable: false,
+//   itemDescription: function () {
+//     console.log(`${this.name} ${this.isAvailable}`);
+//   },
+// };
+// console.log(item); // {isAvailable: false, itemDescription: ƒ}
+// const me = Object.create(item);
+// me.name = 'cheese'; // "name" is a property set on "me", but not on "person"
+// me.isAvailable = true; // inherited properties can be overwritten
+// me.itemDescription();
+// console.log(me); // {name: "cheese", isAvailable: true}
