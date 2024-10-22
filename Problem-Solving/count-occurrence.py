@@ -1,5 +1,5 @@
  
-test_str = 'sunny'
+test_str = 'tests'
 all_freq = {} 
   
 for i in test_str: 
