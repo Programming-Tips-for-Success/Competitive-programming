@@ -1,7 +1,4 @@
 '''
-Objective
-Today, we're taking what we learned yesterday about Inheritance and extending it to Abstract Classes. Because this is a very specific Object-Oriented concept, 
-
 Task
 Given a Book class and a Solution class, write a MyBook class that does the following:
 
