@@ -21,10 +21,6 @@ is even and greater than
 
     , print Not Weird
 
-Complete the stub code provided in your editor to print whether or not
-
-is weird.
-
 Input Format
 
 A single line containing a positive integer,
@@ -74,3 +70,4 @@ else:
         print('Weird')
     else:
         print('Not Weird')
+        
