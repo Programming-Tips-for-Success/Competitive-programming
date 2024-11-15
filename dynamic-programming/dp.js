@@ -76,12 +76,11 @@ function fib(n, savedFib={}) {
    if (n <= 0) { return 0; }
    if (n <= 2) { return 1; }
 
-   // memoize
+
    if (savedFib[n - 1] === undefined) {
         savedFib[n - 1] = fib(n - 1, savedFib);
    }
-
-   // memoize
+   
    if (savedFib[n - 2] === undefined) {
         savedFib[n - 2] = fib(n - 2, savedFib);
    }
